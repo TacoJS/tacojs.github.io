@@ -5,7 +5,7 @@ permalink: /perform
 ---
 
 ## What’s TacoJS?
-TacoJS is a monthly meetup centered around programming, tacos, and karaoke.
+TacoJS is a monthly meetup centered around programming, tacos, and live performances.
 
 ## How do I submit a performance?
 You can either comment on this issue or send us an email. Come chat with us on Slack if you want immediate feedback.
