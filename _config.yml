@@ -10,7 +10,7 @@ gems:
 
 # Metadata
 keywords: "tacojs, taco, javascript, meetup, philadelphia, node.js, talks, developer, meetup.com, libertyjs"
-google-fonts: "BioRhyme:400,800|Source+Sans+Pro:400,700"
+google-fonts: "BioRhyme:400|Suez+One|Work+Sans:400,700"
 google-fonts-subsets: "latin"
 google-analytics: "UA-XXXXXXXX-1"
 

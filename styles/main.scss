@@ -4,12 +4,12 @@
 @charset "utf-8";
 
 // Our variables
-$base-font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
+$base-font-family: "Work Sans", Helvetica, Arial, sans-serif;
+$base-font-size:   18px;
 $base-line-height: 1.65;
 
-$title-font-family: "BioRhyme", "Source Sans Pro", Helvetica, Arial, sans-serif;
-$heading-font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+$title-font-family: "Suez One", "Source Sans Pro", Helvetica, Arial, sans-serif;
+$heading-font-family: "BioRhyme", Helvetica, Arial, sans-serif;
 $accent-font-family: "Georgia", $base-font-family;
 
 $small-font-size:  $base-font-size * 0.875;
@@ -18,16 +18,16 @@ $spacing-unit:     30px;
 
 // Max width of the content area
 // 1160px for medium, 960px for small
-$content-width:    1280px;
+$content-width:    1160px;
 
 $on-palm:          600px;
 $on-laptop:        800px;
 
 // Color pallete
-$primary:          #2A68D1;
+$primary:          #9E591D;
 $primary-lighter:  lighten($primary, 15%);
 $primary-darker:   darken($primary, 15%);;
-$secondary:        #FF5234;
+$secondary:        #FFEC3B;
 $secondary-lighter:lighten($secondary, 15%);
 $secondary-darker: darken($secondary, 15%);
 

@@ -94,7 +94,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: $heading-font-family;
   // margin: .15em 0;
   // font-weight: 700;
-  font-weight: bold;
+  font-weight: normal;
   line-height: 1em;
   color: inherit;
   a, a:hover {
@@ -115,7 +115,6 @@ h1 {
   font-size: 48px;
   line-height: 1.5em;
   // margin: 0.35em auto;
-  font-weight: 800;
 }
 h2 {
   font-size: 36px;
