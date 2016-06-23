@@ -1,86 +1,34 @@
 // Navigation
-#navigation {
-  background: $primary-darker;
-  color: $white;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.25);
-
-  min-height: 56px;
-
-  // Positioning context for the mobile navigation icon
-  position: relative;
-  z-index: 9900;
-
-  a {
-    color: $white;
+.nav {
+  &-brand {
+    font-family: $title-font-family;
+    font-size: 1.75em;
   }
-
-  .site-title {
-    font-size: 26px;
-    line-height: 56px;
-    letter-spacing: -1px;
-    margin-bottom: 0;
-    float: left;
-
-    &, &:visited {
-      // color: $grey-dark;
-    }
+  &-icon {
+    font-size: 1.35em;
+    margin-left: .25em;
   }
-  .site-nav {
-    float: right;
-    line-height: 56px;
-
-    .menu-icon {
-      display: none;
-    }
-
-    .page-link {
-      // color: $text-color;
-      line-height: $base-line-height;
-
-      // Gaps between nav items, but not on the first one
-      &:not(:first-child) {
-        margin-left: 20px;
+  &-actions {
+    text-align: right;
+    a, span {
+      display: inline-block;
+      padding: .5em 1em;
+      font-weight: bold;
+      &:hover {
+        background: $primary;
+        color: $white;
       }
     }
-
+    span:first-of-type {
+      padding-left: 0;
+      font-weight: normal;
+    }
+    @include media-query($on-laptop) {
+      text-align: left!important;
+    }
     @include media-query($on-palm) {
-      position: absolute;
-      top: 9px;
-      right: 30px;
-      background-color: $background-color;
-      border: 1px solid $grey-light;
-      border-radius: 5px;
-      text-align: right;
-      z-index: 9999;
-      .menu-icon {
-        display: block;
-        float: right;
-        width: 36px;
-        height: 26px;
-        line-height: 0;
-        padding-top: 10px;
-        text-align: center;
-        padding-bottom: 25px;
-        > svg {
-          width: 18px;
-          height: 15px;
-          path {
-            fill: $grey-dark;
-          }
-        }
-      }
-      .trigger {
-        clear: both;
-        display: none;
-      }
-      &:hover .trigger {
-        display: block;
-        padding-bottom: 5px;
-      }
-      .page-link {
-        display: block;
-        padding: 5px 10px;
-        color: $black;
+      a, span {
+        padding: .5em .25em;
       }
     }
   }
@@ -88,8 +36,8 @@
 
 // Page header
 header {
-  background-color: $primary;
-  color: $white;
+  // background-color: $primary;
+  // color: $white;
 }
 
 // Link bar
