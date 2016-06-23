@@ -7,6 +7,24 @@ markdown: kramdown
 gems:
    - jemoji
    - jekyll-redirect-from
+future: true
+
+# Collections
+collections:
+  posts:
+    title: Posts
+    output: true
+  meetups:
+    title: Meetups
+    output: true
+    permalink: "/meetup/:path"
+    layout: meetup
+    location: TBD
+    address: 1234 Market Street
+    intersection: 12th & Market
+  media:
+    title: Media
+    output: true
 
 # Metadata
 keywords: "tacojs, taco, javascript, meetup, philadelphia, node.js, talks, developer, meetup.com, libertyjs"

@@ -1,0 +1,43 @@
+---
+layout: blank
+---
+<header class="post-header">
+  <container>
+
+    <h1 class="post-title">{{ page.title }}</h1>
+    <p class="post-meta">{{ page.date | date: "%B %-d, %Y" }} @ {{ page.venue }}</p>
+
+  </container>
+</header>
+<section class="post">
+  <container>
+
+    <article class="post-content">
+      {{ content }}
+    </article>
+
+  </container>
+</section>
+<section class="schedule">
+  <container>
+    <h1>Schedule</h1>
+    {% for item in page.schedule %}
+    <row>
+      <column size="20" class="text-right">
+        {{ item.time | date: "%h:%m" }}
+      </column>
+      <column size="80">
+        <h2>
+          {{ item.title }}
+        </h2>
+        {% if item.author %}
+        <p>{{ item.author }} {{ item.twitter }}</p>
+        {% endif %}
+        {% if item.description %}
+        <p>{{ item.description }}</p>
+        {% endif %}
+      </column>
+    </row>
+    {% endfor %}
+  </container>
+</section>
