@@ -8,6 +8,7 @@ gems:
    - jemoji
    - jekyll-redirect-from
 future: true
+timezone: Etc/UTC
 
 # Collections
 collections:

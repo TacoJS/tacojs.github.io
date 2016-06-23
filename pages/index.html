@@ -35,14 +35,10 @@ permalink: /
     <h1>Schedule</h1>
     {% assign curDate = site.time | date: '%s' %}
     {% for meetup in site.meetups | limit: 1 %}
-    {% for item in meetup.schedule %}
+    {% for item in <meetu></meetu>p.schedule %}
     <row class="schedule-event">
       <columnz size="20" class="schedule-time">
-        {% if item.xtime %}
-        {{ item.xtime }}
-        {% else %}
-        {{ item.time | date: "%-I:%M %P" }}
-        {% endif %}
+        {{ item.time | date_to_xmlschema | date: "%-I:%M %P" }}
       </columnz>
       <columnz size="80">
         <h2>
