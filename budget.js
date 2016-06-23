@@ -1,0 +1,23 @@
+process.exit(
+
+     0.00 // budget.js - keeping the books for @tacojs_phl
+          // by @jedschmidt and @brianloveswords
+
+          // for details, see our accountant:
+          // https://travis-ci.org/tacojs/tacojs.github.io
+
+          // TacoJS #1, 2016-07-14 at @IndustriousHQ
+          // featuring X, Y, and Z
+
++   0.00  // ticket sales  @
++   0.00  // sponsorship   @
+
+-   0.00  // ticketing
+-   0.00  // banners
+-   0.00  // adapters      @amazon
+-   0.00  // nametags      @walmart
+-   0.00  // domain        @namecheap
+
+-   0.00  // donation      @CodedyByKids
+
+)
