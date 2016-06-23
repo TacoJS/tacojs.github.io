@@ -35,7 +35,7 @@ permalink: /
     <h1>Schedule</h1>
     {% assign curDate = site.time | date: '%s' %}
     {% for meetup in site.meetups | limit: 1 %}
-    {% for item in <meetu></meetu>p.schedule %}
+    {% for item in meetup.schedule %}
     <row class="schedule-event">
       <columnz size="20" class="schedule-time">
         {{ item.time | date_to_xmlschema | date: "%-I:%M %P" }}
