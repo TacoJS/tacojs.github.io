@@ -1,0 +1,22 @@
+---
+title: People
+permalink: "/people/"
+layout: page
+---
+
+{% for person in site.data.people %}
+  <div class="guest" id="{{ person.name | slugify }}">
+    <div class="avatar" style="background-image:url({{ site.baseurl }}/{{ person.avatar }});"></div>
+    <h2>{{ person.name }}  {% if person.aka %}<small>{{ person.aka }}</small>{% endif %}</h2>
+    <p>{{ person.bio }}</p>
+    <p class="guest-links">
+     {% if person.website %}<icon class="icon-explore"></icon> <a href="{{ person.website }}" target="_blank">{{ person.website }}<icon class="icon-right"></icon></a>{% endif %}
+     {% if person.deviantart %}<icon class="icon-deviantart"></icon> <a href="http://{{ person.deviantart }}.deviantart.com" target="_blank" class="link-deviantart">{{ person.deviantart }}<icon class="icon-right"></icon></a>{% endif %}
+     {% if person.github %}<icon class="icon-github"></icon> <a href="http://github.com/{{ person.github }}" target="_blank" class="link-github">{{ person.github }}<icon class="icon-right"></icon></a>{% endif %}
+     {% if person.dribbble %}<icon class="icon-dribbble"></icon> <a href="http://dribbble.com/{{ person.dribbble }}" target="_blank" class="link-dribbble">{{ person.dribbble }}<icon class="icon-right"></icon></a>{% endif %}
+     {% if person.tumblr %}<icon class="icon-tumblr"></icon> <a href="http://{{ person.tumblr }}.tumblr.com" target="_blank" class="link-tumblr">{{ person.tumblr }}<icon class="icon-right"></icon></a>{% endif %}
+     {% if person.youtube %}<icon class="icon-youtube"></icon> <a href="{{ person.youtube }}" target="_blank" class="link-youtube">{{ person.youtube }}<icon class="icon-right"></icon></a>{% endif %}
+     {% if person.twitter %}<a href="https://twitter.com/intent/follow?screen_name={{ person.twitter }}" target="_blank" class="twitter-button"><icon class="icon-twitter"></icon> Follow @{{ person.twitter }}</a>{% endif %}
+    </p>
+  </div>
+{% endfor %}

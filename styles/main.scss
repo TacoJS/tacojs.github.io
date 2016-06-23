@@ -1,0 +1,70 @@
+---
+---
+
+@charset "utf-8";
+
+// Our variables
+$base-font-family: "Gentium Basic", Helvetica, Arial, sans-serif;
+$base-font-size:   16px;
+$base-line-height: 1.65;
+
+$title-font-family: "Passion One", "Source Sans Pro", Helvetica, Arial, sans-serif;
+$heading-font-family: "Gentium Basic", Helvetica, Arial, sans-serif;
+$accent-font-family: "Fira Mono", $base-font-family;
+
+$small-font-size:  $base-font-size * 0.875;
+
+$spacing-unit:     30px;
+
+// Max width of the content area
+// 1160px for medium, 960px for small
+$content-width:    1080px;
+
+$on-palm:          600px;
+$on-laptop:        800px;
+
+// Color pallete
+$primary:          #2A68D1;
+$primary-lighter:  lighten($primary, 15%);
+$primary-darker:   darken($primary, 15%);;
+$secondary:        #FF5234;
+$secondary-lighter:lighten($secondary, 15%);
+$secondary-darker: darken($secondary, 15%);
+
+$red:              #F44336;
+$white:            #ffffff;
+$black:            #000000;
+
+$text-color:       $black;
+$background-color: $white;
+$brand-color:      $primary;
+
+$grey:       #828282;
+$grey-light: lighten($grey, 40%);
+$grey-dark:  darken($grey, 25%);
+
+// Using media queries with like this:
+// @include media-query($on-palm) {
+//  .wrapper {
+//    padding-right: $spacing-unit / 2;
+//    padding-left: $spacing-unit / 2;
+//  }
+// }
+@mixin media-query($device) {
+  @media screen and (max-width: $device) {
+    @content;
+  }
+}
+
+// Font location
+$icomoon-font-path: "../icons/fonts";
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+  "base",
+  "grid",
+  "forms",
+  "iconsvars",
+  "icons",
+  "site"
+;

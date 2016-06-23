@@ -1,0 +1,32 @@
+---
+title: Pixely
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  projects:
+    title: Projects
+    output: true
+    permalink: "/:path"
+    accent: "#FF0000"
+    layout: project
+  uploads:
+    title: Uploads
+    output: true
+baseurl: 
+url: http://victor.moe
+markdown: kramdown
+gems:
+- jemoji
+- jekyll-redirect-from
+keywords: Victor Lourng, unicorn, web design, web development, frontend, backend,
+  developer, nerd
+google-fonts: Passion+One:400|Source+Sans+Pro:400,700|Fira+Mono:400,700
+google-fonts-subsets: latin
+google-analytics: UA-XXXXXXXX-1
+location: Philadelphia, PA, USA
+email: contact@example.com
+description: |
+  Jelly beans pie bear claw jelly beans marshmallow. Cookie ice cream icing oat cake jelly-o ice cream topping cotton candy. Brownie bonbon icing. Cake sugar plum tart jujubes cookie. Tiramisu tiramisu candy bear claw chocolate bar pastry. Biscuit chocolate tiramisu tiramisu. Sesame snaps danish dragée sugar plum carrot cake bonbon pastry fruitcake chocolate cake. Soufflé jelly beans toffee lollipop jujubes candy. Tiramisu lollipop chocolate cake chocolate bar donut cake. Gummies halvah sweet roll brownie gingerbread ice cream. Topping jelly beans croissant cake icing brownie apple pie cotton candy. Gingerbread oat cake cupcake bear claw brownie. Tart caramels cheesecake topping.
+handle: LabLayers

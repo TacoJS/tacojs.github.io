@@ -1,0 +1,30 @@
+---
+layout: blank
+home: true
+permalink: /index
+accent: "#545BCB"
+---
+
+<header id="home-intro">
+  <div class="cover"></div>
+  <container>
+        <h1 class="title no-margin-bottom">Welcome!</h1>
+        <p class="lead"><b>I’m a developer &amp; I build cool<br>things for the interwebs.</b><br><i>That is all.</i></p>
+        <a href="#info" class="button"><icon class="icon-location"></icon> Philadelphia</a>
+  </container>
+</header>
+
+<section id="home-projects">
+
+  <container>
+    <h1>Projects</h1>
+    {% for project in site.projects limit:4 %}
+      <a class="projbox projbox-full" href="{{ project.url | prepend: site.baseurl }}" style="background-color: {{ project.accent }}">
+        <h1>{{ project.title }}</h1>
+      </a>
+    {% endfor %}
+    <a href="{{ site.baseurl }}/blog" class="button">More Projects <icon class="icon-right"></icon></a>
+
+  </container>
+
+</section>

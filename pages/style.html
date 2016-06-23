@@ -1,0 +1,185 @@
+--
+layout: page
+title: Style Guide
+permalink: /about/style
+---
+
+<h1>Colors</h1>
+
+<div class="sg-color-pallete">
+  <h2>BronyCon (Reference)</h2>
+  <div class="sg-color">
+    <color hex="#6ED2FA" name="Cyan"></color>
+    <color hex="#96288C" name="Magenta"></color>
+    <color hex="#5A3791" name="Violet"></color>
+    <color hex="#192855" name="Blue"></color>
+    <color hex="#F68B28" name="Orange"></color>
+  </div>
+</div>
+
+<div class="sg-color-pallete" style="background: #ccecec;">
+  <h2>Show-Style Nature (Reference)</h2>
+  <div class="sg-color">
+    <color hex="#005d39" name="Everfree Forest"></color>
+    <color hex="#049c5c" name="Everfree Green"></color>
+    <color hex="#1fdbb1" name="Light Green"></color>
+    <color hex="#01cbbe" name="Seabreeze"></color>
+    <!-- <color hex="#8CE8E9" name="Sky"></color> -->
+    <color hex="#9680DF" name="Purple"></color>
+  </div>
+</div>
+
+<div class="sg-color-pallete">
+  <h2>City of Philadelphia (Reference)</h2>
+  <div class="sg-color">
+    <color hex="#004990" name="UN Blue"></color>
+    <color hex="#DEB408" name="Yellow"></color>
+    <color hex="#B5121B" name="Red"></color>
+  </div>
+</div>
+
+<div class="sg-color-pallete" style="background: #49564E; color: white;">
+  <h2>City of Philadelphia II</h2>
+  <div class="sg-color">
+    <color hex="#EBC60F" name="Gold"></color>
+    <color hex="#A56E60" name="Brick"></color>
+    <color hex="#377BA3" name="Water"></color>
+    <color hex="#89B47D" name="Grass"></color>
+    <color hex="#CCC5B4" name="Sandstone"></color>
+  </div>
+</div>
+
+<div class="sg-color-pallete">
+  <h2>An Idea</h2>
+  <div class="sg-color">
+    <color hex="#E55D10" name="Orange"></color>
+    <color hex="#95D706" name="Green Apple"></color>
+    <color hex="#830E97" name="Purple"></color>
+    <color hex="#0B9670" name="Aqua"></color>
+    <color hex="#9D3B00" name="Brown"></color>
+  </div>
+</div>
+
+<div class="sg-color-pallete">
+  <h2>Another Idea</h2>
+  <div class="sg-color">
+    <color hex="#BE3D36" name="Brick"></color>
+    <color hex="#265F78" name="Water"></color>
+    <color hex="#FFEE00" name="Yellow" style="color:black"></color>
+    <color hex="#92B433" name="Green"></color>
+    <color hex="#C3097F" name="Magenta"></color>
+  </div>
+</div>
+
+<div class="sg-color-pallete">
+  <h2>Old Logo</h2>
+  <div class="sg-color">
+    <color hex="#1C2D4D" name="Navy"></color>
+    <color hex="#859CC6" name="Blue"></color>
+    <color hex="#E7813F" name="Orange"></color>
+    <color hex="#99399B" name="Purple"></color>
+    <color hex="#7DC36F" name="Green"></color>
+  </div>
+</div>
+
+<div class="sg-color-pallete" style="background: #F7E9C4;">
+  <h2>Historical</h2>
+  <div class="sg-color">
+    <color hex="#D83C2C" name="Red"></color>
+    <color hex="#EBBA03" name="Yellow"></color>
+    <color hex="#3BB0D4" name="Blue"></color>
+    <color hex="#7C4125" name="Brown"></color>
+    <color hex="#CCC5B4" name="Gray"></color>
+  </div>
+</div>
+
+<div class="sg-color-pallete" style="background: #1C2D4D; color: white;">
+  <h2>Vivid</h2>
+  <div class="sg-color">
+    <color hex="#C92D27" name="Red"></color>
+    <color hex="#EC8A17" name="Orange"></color>
+    <color hex="#3FA4EF" name="Blue"></color>
+    <color hex="#47C3AD" name="Teal"></color>
+    <color hex="#953995" name="Purple"></color>
+  </div>
+</div>
+
+<div class="sg-color-pallete" style="background: #FCF7B7">
+  <h2>Logos &amp; OC</h2>
+  <div class="sg-color">
+    <color hex="#E66A7B" name="Red"></color>
+    <color hex="#B97E61" name="Brown"></color>
+    <color hex="#C8DD5E" name="Green"></color>
+    <color hex="#8DDCEF" name="Blue"></color>
+    <color hex="#33A9B5" name="Teal"></color>
+  </div>
+</div>
+
+<div class="sg-color-pallete" style="background: #FCF7B7">
+  <h2>Logos &amp; OC, Darker</h2>
+  <div class="sg-color">
+    <color hex="#B93244" name="Red"></color>
+    <color hex="#D0550B" name="Orange"></color>
+    <color hex="#793E21" name="Brown"></color>
+    <color hex="#6DD046" name="Green"></color>
+    <color hex="#33A9B5" name="Teal"></color>
+  </div>
+</div>
+
+<script>
+function hexToRgb(h) {
+    var r = parseInt((cutHex(h)).substring(0,2),16),
+    g = ((cutHex(h)).substring(2,4),16),
+    b = parseInt((cutHex(h)).substring(4,6),16)
+    return 'rgb('+r+','+g+','+b+')';
+}
+function cutHex(h) {
+  return (h.charAt(0)=="#") ? h.substring(1,7):h;
+}
+$(document).ready(function() {
+  $("color").each(function() {
+    name = $(this).attr('name');
+    color = $(this).attr('hex');
+    hex = $(this).attr('hex');
+    rgb = hexToRgb(hex);
+    $(this).append("<div class='color-block'  style='background-color:" + color + "'><h4>" + name + "</h4>" + hex + "<br>" + rgb + '</div>');
+  });
+});
+</script>
+
+
+<h1>Logo</h1>
+
+<h1>Motifs</h1>
+
+<h1>Characters</h1>
+
+<h1>Typography</h1>
+
+<div class="sg-sample">
+  <h1>ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>abcdefghijklmnopqrstuvwxyz<br>0123456789 (!@#$%&amp;?)</h1>
+</div>
+
+<div class="sg-sample">
+  <h2>ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>abcdefghijklmnopqrstuvwxyz<br>0123456789 (!@#$%&amp;?)</h2>
+</div>
+
+<div class="sg-sample">
+  <h3>ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>abcdefghijklmnopqrstuvwxyz<br>0123456789 (!@#$%&amp;?)</h3>
+</div>
+
+<div class="sg-sample">
+  <p class="lead">ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>abcdefghijklmnopqrstuvwxyz<br>0123456789 (!@#$%&amp;?)</p>
+</div>
+
+<div class="sg-sample">
+  <p>ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>abcdefghijklmnopqrstuvwxyz<br>0123456789 (!@#$%&amp;?)</p>
+</div>
+
+<div class="sg-sample">
+  <blockquote>ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>abcdefghijklmnopqrstuvwxyz<br>0123456789 (!@#$%&amp;?)</blockquote>
+</div>
+
+<div class="sg-sample">
+  <code>ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>abcdefghijklmnopqrstuvwxyz<br>0123456789 (!@#$%&amp;?)</code>
+</div>

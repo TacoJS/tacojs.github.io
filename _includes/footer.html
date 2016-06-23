@@ -1,0 +1,37 @@
+<footer class="site-footer">
+
+  <container>
+    <a href="#top" class="button back-to-top float-right">Back to Top <icon class="icon-up"></icon></a>
+    <div class="link-bar">
+      <icon class="icon-twitter"></icon> <a href="https://twitter.com/{{ site.handle }}" target="_blank" class="link-twitter">@{{ site.handle }}</a>
+      <icon class="icon-facebook"></icon> <a href="https://facebook.com/{{ site.handle }}" target="_blank" class="link-facebook">Facebook</a>
+      <icon class="icon-github"></icon> <a href="https://github.com/{{ site.handle }}" target="_blank" class="link-github">GitHub</a>
+      <icon class="icon-mail"></icon> <a href="mailto:{{ site.contact }}" target="_blank" class="link-email">Email</a>
+    </div>
+
+    <p class="no-margin-bottom">
+      <small>&copy; {{ site.title }}. All rights reserved. You're awesome.</small>
+    </p>
+  </container>
+
+</footer>
+
+
+{% if site.dev == true %}
+<script src="{{ site.baseurl }}/scripts/jquery-2.2.2.min.js"></script>
+{% else %}
+<script src="https://code.jquery.com/jquery-3.0.0.min.js"   integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0="   crossorigin="anonymous"></script>
+{% endif %}
+<script src="{{ site.baseurl }}/scripts/site.js"></script>
+
+{% if site.dev != true %}
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', '{{ site.google-analyrics }}', 'auto');
+  ga('send', 'pageview');
+</script>
+{% endif %}

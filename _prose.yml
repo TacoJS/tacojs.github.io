@@ -1,0 +1,35 @@
+prose:
+  rooturl: '_posts'
+  siteurl: 'http://fc-2016.victor.moe/'
+  media: 'media/uploads'
+  ignore:
+    - index.html
+    - meetups.html
+    - _config.yml
+    - /_layouts
+    - /_includes
+  metadata:
+    _posts:
+      - name: "title"
+        field:
+          element: "text"
+          label: "title"
+      - name: "summary"
+        field:
+          element: "textarea"
+          help: "Optional 100-character summary of post for social media"
+          value: ""
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "blog"
+      - name: "categories"
+        field:
+          element: "text"
+          help: "press or blog"
+          value: "press"
+      - name: "date"
+        field:
+          element: "text"
+          help: "Date published by YYYY-MM-DD HH:MM, for time I reccomend 08:00"
+          value: CURRENT_DATETIME
