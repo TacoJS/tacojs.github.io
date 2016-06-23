@@ -24,7 +24,7 @@ layout: blank
     {% for item in page.schedule %}
     <row>
       <column size="20" class="text-right">
-        {{ item.time | date: "%h:%m" }}
+        {{ item.time | date: "%-I:%M %P" }}
       </column>
       <column size="80">
         <h2>
