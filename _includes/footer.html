@@ -3,10 +3,11 @@
   <container>
     <a href="#top" class="button back-to-top float-right">Back to Top <icon class="icon-up"></icon></a>
     <div class="link-bar">
-      <icon class="icon-twitter"></icon> <a href="https://twitter.com/{{ site.handle }}" target="_blank" class="link-twitter">@{{ site.handle }}</a>
-      <icon class="icon-facebook"></icon> <a href="https://facebook.com/{{ site.handle }}" target="_blank" class="link-facebook">Facebook</a>
-      <icon class="icon-github"></icon> <a href="https://github.com/{{ site.handle }}" target="_blank" class="link-github">GitHub</a>
-      <icon class="icon-mail"></icon> <a href="mailto:{{ site.contact }}" target="_blank" class="link-email">Email</a>
+      {% if site.facebook %}<icon class="icon-facebook"></icon> <a href="https://facebook.com/{{ site.facebook }}" target="_blank" class="link-facebook">Facebook</a>{% endif %}
+      {% if site.twitter %}<icon class="icon-twitter"></icon> <a href="https://twitter.com/{{ site.twitter }}" target="_blank" class="link-twitter">@{{ site.twitter }}</a>{% endif %}
+      {% if site.github %}<icon class="icon-github"></icon> <a href="https://github.com/{{ site.github }}" target="_blank" class="link-github">{{ site.github }}</a>{% endif %}
+      <icon class="icon-heart"></icon> <a href="http://jsconf.com/codeofconduct.html" target="_blank" class="link-heart">JSConf Code of Conduct</a>
+      <icon class="icon-mail"></icon> <a href="mailto:{{ site.contact }}" target="_blank" class="link-email">Contact Us</a>
     </div>
 
     <p class="no-margin-bottom">
