@@ -1,18 +1,21 @@
 - # Basic Info
   name: "Victor Lourng"
-  role: "Founder"
   # Usernames
   twitter: "lablayers"
-  github: "lablayers"
-  codepen: "lablayers"
-  dribbble: "lablayers"
-  # Slack Usernames
-  phillydev: "victor"
-  phldesign: "victor"
-  borojs: "victor"
   # Links
-  website: "http://peternew.net/"
-  # Images
-  avatar: /media/guests/undefined-avatar.png
-  # Color
-  color:
+  website: "http://victorlourng.com/"
+- # Basic Info
+  name: "Pam Selle"
+  # Usernames
+  twitter: "pamasaur"
+  # Links
+- # Basic Info
+  name: "Jenn Voss"
+  # Usernames
+  twitter: "vossjenn"
+  # Links
+- # Basic Info
+  name: "RJ Robinson"
+  # Usernames
+  twitter: "RJrobinson"
+  # Links
