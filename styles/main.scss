@@ -1,16 +1,16 @@
 ---
+# Only the main Sass file needs front matter (the dashes are enough)
 ---
-
 @charset "utf-8";
 
 // Our variables
-$base-font-family: "Gentium Basic", Helvetica, Arial, sans-serif;
+$base-font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
 $base-line-height: 1.65;
 
-$title-font-family: "Passion One", "Source Sans Pro", Helvetica, Arial, sans-serif;
-$heading-font-family: "Gentium Basic", Helvetica, Arial, sans-serif;
-$accent-font-family: "Fira Mono", $base-font-family;
+$title-font-family: "BioRhyme", "Source Sans Pro", Helvetica, Arial, sans-serif;
+$heading-font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+$accent-font-family: "Georgia", $base-font-family;
 
 $small-font-size:  $base-font-size * 0.875;
 
@@ -18,7 +18,7 @@ $spacing-unit:     30px;
 
 // Max width of the content area
 // 1160px for medium, 960px for small
-$content-width:    1080px;
+$content-width:    1280px;
 
 $on-palm:          600px;
 $on-laptop:        800px;
@@ -33,7 +33,7 @@ $secondary-darker: darken($secondary, 15%);
 
 $red:              #F44336;
 $white:            #ffffff;
-$black:            #000000;
+$black:            #3c3836;
 
 $text-color:       $black;
 $background-color: $white;

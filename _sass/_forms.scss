@@ -1,16 +1,14 @@
 // Buttons
 .button {
-  background: $primary;
+  background: $secondary;
   color: white!important;
   display: inline-block;
-  // font-family: $base-font-family;
-  font-family: $accent-font-family;
+  font-family: $base-font-family;
   font-size: $base-font-size;
-  // font-weight: bold;
-  font-weight: normal;
   padding: .5em 1em;
   text-decoration: none;
   border-radius: 4px;
+  font-weight: bold;
   -webkit-user-select: none;
   margin-bottom: $base-font-size;
   border: none;
@@ -23,7 +21,7 @@
     }
   }
   &:hover, &:focus, &:active {
-    // background: darken($secondary, 10%);
+    background: darken($secondary, 10%);
     text-decoration: none;
   }
   &:active {
