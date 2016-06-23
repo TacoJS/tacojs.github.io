@@ -20,23 +20,30 @@ layout: blank
 </section>
 <section id="schedule" class="schedule">
   <container>
-    <h1>Schedule</h1>
+    <!-- Schedule loop goes here -->
+    {% assign curDate = site.time | date: '%s' %}
+    <row>
+      <column size="15"></column>
+      <column size="85">
+        <h1>{{ page.title }} Schedule</h1>
+      </column>
+    </row>
     {% for item in page.schedule %}
     <row class="schedule-event">
-      <columnz size="20" class="schedule-time">
+      <columny size="15" class="schedule-event-time">
         {{ item.time | date_to_xmlschema | date: "%-I:%M %P" }}
-      </columnz>
-      <columnz size="80">
-        <h2>
+      </columny>
+      <columny size="85">
+        <h2 class="schedule-event-title">
           {{ item.title }}
         </h2>
         {% if item.author %}
-        <p>{{ item.author }} {{ item.twitter }}</p>
+        <p class="schedule-event-author">{{ item.author }} <a href="https://twitter.com/{{ item.twitter }}" target="_blank">@{{ item.twitter }}</a></p>
         {% endif %}
         {% if item.description %}
-        <p>{{ item.description }}</p>
+        <p class="schedule-event-description">{{ item.description }}</p>
         {% endif %}
-      </columnz>
+      </columny>
     </row>
     {% endfor %}
   </container>

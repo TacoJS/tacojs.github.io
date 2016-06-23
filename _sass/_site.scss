@@ -10,7 +10,7 @@
   }
   &-actions {
     text-align: right;
-    a, span {
+    a {
       display: inline-block;
       padding: .5em 1em;
       font-weight: bold;
@@ -20,7 +20,8 @@
       }
     }
     span {
-      padding-right: 1em;
+      display: inline-block;
+      padding: .5em 1em;
       font-weight: normal;
     }
     @include media-query($on-laptop) {
@@ -78,11 +79,40 @@ header {
   h2, h3 {
     margin-top: 0;
     text-align: left!important;
+    font-size: 34px;
+    line-height: 1.25em;
   }
-  .schedule-time {
+  .schedule-event-time {
     text-align: right;
     line-height: 50px;
     vertical-align: middle;
+    @include media-query($on-palm) {
+      text-align: left;
+      display: inline-block;
+      color: $white;
+      background: $black;
+      line-height: 2em;
+    }
+  }
+  columny[size="85"], columny[size="80"] {
+    border-bottom: 2px solid rgba(0,0,0,.25);
+    padding-bottom: 5px;
+    @include media-query($on-palm) {
+      border-bottom: none;
+    }
+  }
+}
+
+// Footer
+footer {
+  background: #f1f1f1;
+  border-top: 2px solid #dadada;
+  @include media-query($on-palm) {
+    .button {
+      display: block;
+      float: none;
+      text-align: center;
+    }
   }
 }
 

@@ -32,37 +32,50 @@ permalink: /
 </header>
 <section id="schedule" class="schedule">
   <container>
-    <h1>Schedule</h1>
-    {% assign curDate = site.time | date: '%s' %}
-    {% for meetup in site.meetups | limit: 1 %}
-    {% for item in meetup.schedule %}
-    <row class="schedule-event">
-      <columnz size="20" class="schedule-time">
-        {{ item.time | date_to_xmlschema | date: "%-I:%M %P" }}
-      </columnz>
-      <columnz size="80">
-        <h2>
-          {{ item.title }}
-        </h2>
-        {% if item.author %}
-        <p>{{ item.author }} {{ item.twitter }}</p>
-        {% endif %}
-        {% if item.description %}
-        <p>{{ item.description }}</p>
-        {% endif %}
-      </columnz>
+    <row>
+      <column size="70">
+        <!-- Schedule loop goes here -->
+        {% assign curDate = site.time | date: '%s' %}
+        {% for meetup in site.meetups | limit: 1 %}
+        <row>
+          <column size="15"></column>
+          <column size="85">
+            <h1>{{ meetup.title }} Schedule</h1>
+          </column>
+        </row>
+        {% for item in meetup.schedule %}
+        <row class="schedule-event">
+          <columny size="15" class="schedule-event-time">
+            {{ item.time | date_to_xmlschema | date: "%-I:%M %P" }}
+          </columny>
+          <columny size="85">
+            <h2 class="schedule-event-title">
+              {{ item.title }}
+            </h2>
+            {% if item.author %}
+            <p class="schedule-event-author">{{ item.author }} <a href="https://twitter.com/{{ item.twitter }}" target="_blank">@{{ item.twitter }}</a></p>
+            {% endif %}
+            {% if item.description %}
+            <p class="schedule-event-description">{{ item.description }}</p>
+            {% endif %}
+          </columny>
+        </row>
+        {% endfor %}
+        {% endfor %}
+      </column>
+      <column size="30">
+        <h1>&nbsp;</h1>
+        <h3>About</h3>
+        <p>TacoJS is a meetup about web technology with a side of tacos and live performances. We meet on a Thursday every month.</p>
+        <p>All participants are expected to follow <a href="http://jsconf.com/codeofconduct.html" target="_blank">JSConf Code of Conduct</a>.</p>
+        <br>
+        <h3>Thank You</h3>
+        <p>This month's event is made possible with the thanks of <a href="/sponsor">our wonderful sponsors</a>:</p>
+      </column>
     </row>
-    {% endfor %}
-    {% endfor %}
   </container>
 </section>
-<section id="about">
-  <container>
-    <h1>About</h1>
-    <p>TacoJS is a meetup about web technology with a side of tacos and live performances. We meet on a Thursday every month.</p>
-    <p>All participants are expected to follow the JSConf Code of Conduct.</p>
-  </container>
-</section>
+
 <section id="involved">
   <container>
     <h1>Get Involved</h1>
