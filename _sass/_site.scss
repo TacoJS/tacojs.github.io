@@ -73,10 +73,16 @@ header {
 }
 
 // Schedule
-#schedule {
+.schedule {
   background: $secondary;
   h2, h3 {
     margin-top: 0;
+    text-align: left!important;
+  }
+  .schedule-time {
+    text-align: right;
+    line-height: 50px;
+    vertical-align: middle;
   }
 }
 

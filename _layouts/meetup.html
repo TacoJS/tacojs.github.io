@@ -18,15 +18,19 @@ layout: blank
 
   </container>
 </section>
-<section class="schedule">
+<section id="schedule" class="schedule">
   <container>
     <h1>Schedule</h1>
     {% for item in page.schedule %}
-    <row>
-      <column size="20" class="text-right">
+    <row class="schedule-event">
+      <columnz size="20" class="schedule-time">
+        {% if item.xtime %}
+        {{ item.xtime }}
+        {% else %}
         {{ item.time | date: "%-I:%M %P" }}
-      </column>
-      <column size="80">
+        {% endif %}
+      </columnz>
+      <columnz size="80">
         <h2>
           {{ item.title }}
         </h2>
@@ -36,7 +40,7 @@ layout: blank
         {% if item.description %}
         <p>{{ item.description }}</p>
         {% endif %}
-      </column>
+      </columnz>
     </row>
     {% endfor %}
   </container>

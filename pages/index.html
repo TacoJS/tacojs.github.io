@@ -18,15 +18,46 @@ permalink: /
 
       </column>
       <column size="50" class="text-left">
-        <p>NEXT MEETUP INFO HERE</p>
+        {% for meetup in site.meetups | limit: 1 %}
+        <p><b>DATE AND TIME</b>
+        <br>{{ meetup.date | date_to_string }} 6:30-9PM</p>
+        <br>
+        <p><b>LOCATION</b>
+        <br>{{ meetup.venue }} <br>{{ meetup.address }}</p>
+        {% endfor %}
       </column>
     </row>
   </container>
 
 </header>
-<section id="schedule">
+<section id="schedule" class="schedule">
   <container>
-    <p>Schedule goes here.</p>
+    <h1>Schedule</h1>
+    {% assign curDate = site.time | date: '%s' %}
+    {% for meetup in site.meetups | limit: 1 %}
+    {% for item in meetup.schedule %}
+    <row class="schedule-event">
+      <columnz size="20" class="schedule-time">
+        {% if item.xtime %}
+        {{ item.xtime }}
+        {% else %}
+        {{ item.time | date: "%-I:%M %P" }}
+        {% endif %}
+      </columnz>
+      <columnz size="80">
+        <h2>
+          {{ item.title }}
+        </h2>
+        {% if item.author %}
+        <p>{{ item.author }} {{ item.twitter }}</p>
+        {% endif %}
+        {% if item.description %}
+        <p>{{ item.description }}</p>
+        {% endif %}
+      </columnz>
+    </row>
+    {% endfor %}
+    {% endfor %}
   </container>
 </section>
 <section id="about">
