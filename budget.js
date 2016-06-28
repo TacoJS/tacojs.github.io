@@ -15,7 +15,7 @@ process.exit(
 -   0.00  // ticketing
 -   0.00  // banners
 -   0.00  // adapters      @amazon
--   0.00  // nametags      @walmart
+-   7.55  // nametags      @walmart
 -   0.00  // domain        @namecheap
 
 -   0.00  // donation      @CodedyByKids
