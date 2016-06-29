@@ -14,13 +14,15 @@ permalink: /
           A fun night of
           code &amp; tacos.
         </h1>
-        <a href="#" class="button">TICKETS SOON!</a>
-
+        {% for meetup in site.meetups | limit: 1 %}
+        <p>
+          <a href="#" class="button">TICKETS SOON!</a> &nbsp;&nbsp;
+          Proceeds go to <a href="{{ meetup.charity-url }}" target="_blank">{{ meetup.charity }}</a>
+        </p>
       </column>
       <column size="15" class="text-left">
       </column>
       <column size="30" class="text-left">
-        {% for meetup in site.meetups | limit: 1 %}
         <p><b>DATE AND TIME</b>
         <br>{{ meetup.date | date_to_string }} 6:30-9PM</p>
         <br>
