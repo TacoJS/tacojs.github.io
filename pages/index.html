@@ -16,7 +16,11 @@ permalink: /
         </h1>
         {% for meetup in site.meetups | limit: 1 %}
         <p>
-          <a href="#" class="button">TICKETS SOON!</a> &nbsp;&nbsp;
+          {% if meetup.rsvp %}
+          <a href="{{ meetup.rsvp }}" class="button" target="_blank">BUY TICKETS - ${{ meetup.price }}</a>
+          {% else %}
+          <a href="#" class="button">TICKETS SOON!</a>
+          {% endif %} &nbsp;&nbsp;
           Proceeds go to <a href="{{ meetup.charity-url }}" target="_blank">{{ meetup.charity }}</a>
         </p>
       </column>
