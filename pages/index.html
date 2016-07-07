@@ -16,8 +16,8 @@ permalink: /
         </h1>
         {% for meetup in site.meetups | limit: 1 %}
         <p>
-          {% if meetup.rsvp %}
-          <a href="{{ meetup.rsvp }}" class="button" target="_blank">BUY TICKETS - ${{ meetup.price }}</a>
+          {% if meetup.rsvp-url %}
+          <a href="{{ meetup.rsvp-url }}" class="button" target="_blank">BUY TICKETS - ${{ meetup.price }}</a>
           {% else %}
           <a href="#" class="button">TICKETS SOON!</a>
           {% endif %} &nbsp;&nbsp;
@@ -38,13 +38,13 @@ permalink: /
   </container>
 
 </header>
+{% assign curDate = site.time | date: '%s' %}
+{% for meetup in site.meetups | limit: 1 %}
 <section id="schedule" class="schedule">
   <container>
     <row>
       <column size="70">
         <!-- Schedule loop goes here -->
-        {% assign curDate = site.time | date: '%s' %}
-        {% for meetup in site.meetups | limit: 1 %}
         <row>
           <column size="15"></column>
           <column size="85">
@@ -69,7 +69,6 @@ permalink: /
           </columny>
         </row>
         {% endfor %}
-        {% endfor %}
       </column>
       <column size="30">
         <h1>&nbsp;</h1>
@@ -77,13 +76,22 @@ permalink: /
         <p>TacoJS is a meetup about web technology with a side of tacos and live performances. We meet on a Thursday every month.</p>
         <p>All participants are expected to follow <a href="http://jsconf.com/codeofconduct.html" target="_blank">JSConf Code of Conduct</a>.</p>
         <br>
+        <h3>Tacos</h3>
+        <p>Every month, we get fresh tacos delivered from a different jawnt across the Philadelphia area. To kick things off, this month's tacos are from <a href="{{ meetup.tacos-url }}" target="_blank">{{ meetup.tacos }}</a>.</p>
+        <br>
         <h3>Thank You</h3>
-        <p>This month's event is sponsored by <a href="http://www.fisglobal.com/About-Us/Careers">FIS</a>.</p>
+        <p>This month's event made possible by our wonderful sponsors:</p>
+        <p>
+          {% for sponsor in meetup.sponsors %}
+            <a href="{{ sponsor.url }}" target="_blank"><img src="{{ sponsor.logo-url }}" alt="{{ sponsor.name }}" title="{{ sponsor.name }}"/></a>
+          {% endfor %}
+        </p>
         <p>Interested in sponsoring? <a href="/sponsor">Details</a></p>
       </column>
     </row>
   </container>
 </section>
+{% endfor %}
 
 <section id="involved">
   <container>
