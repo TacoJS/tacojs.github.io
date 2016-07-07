@@ -10,7 +10,7 @@ process.exit(
           // featuring X, Y, and Z
 
 +   0.00  // ticket sales  @
-+   0.00  // sponsorship   @
++ 150.00  // sponsorship   @FISGlobal
 
 -   0.00  // ticketing
 -   0.00  // banners
