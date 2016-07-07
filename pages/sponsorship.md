@@ -64,7 +64,7 @@ If you’re interested in sponsoring TacoJS, please contact Victor at hello (at)
 
 ### Can we have a speaker the same month that we sponsor?
 
-We don’t select speakers the same month their company sponsors us. We do however encourage you to submit for the next month or use your 2-minute spot during intros for short talk ideas.
+You sure can! Your talk can not be about recruting, but you are more than welcome to use your 2-minute spot during intros to talk about jobs.
 
 ### How many sponsors do you have per month?
 
