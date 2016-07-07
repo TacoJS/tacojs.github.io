@@ -25,6 +25,16 @@ section {
   *padding: 100px 0;
   align-items: center;
   // background: white;
+
+  .schedule {
+    width: 80%;
+    max-width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 100%/50%;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
 }
 
 // Wrapper
