@@ -7,14 +7,20 @@ process.exit(
           // https://travis-ci.org/tacojs/tacojs.github.io
 
           // TacoJS #1, 2016-07-14 at @IndustriousHQ
-          // featuring X, Y, and Z
+          // featuring X, Y, and @lablayers
 
-+   0.00  // ticket sales  @
++ 104.00  // ticket sales  @meetup
++   0.00  // door sales
 + 150.00  // sponsorship   @FISGlobal
++ 125.33  // sponsorship   @Finland
++   0.00  // pitch-in      @lablayers
 
--   0.00  // ticketing
--   0.00  // banners
--   0.00  // adapters      @amazon
+- 270.00  // tacos         @chipotle
+-   0.00  // sodas + sauce @dollartree
+- 100.00  // performer
+
+-  12.80  // ticketing     @meetup & @wepay
+-   8.99  // adapters      @amazon
 -   7.55  // nametags      @walmart
 -   3.88  // domain        @namecheap
 
