@@ -16,7 +16,7 @@ process.exit(
 +   0.00  // pitch-in      @lablayers
 
 - 270.00  // tacos         @chipotle
--   0.00  // sodas + sauce @dollartree
+-   4.32  // sodas + sauce @dollartree
 - 100.00  // performer
 
 -  12.80  // ticketing     @meetup & @wepay
