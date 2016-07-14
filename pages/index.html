@@ -83,7 +83,7 @@ permalink: /
         <p>This month's event made possible by our wonderful sponsors:</p>
         <p>
           {% for sponsor in meetup.sponsors %}
-            <a href="{{ sponsor.url }}" target="_blank"><img src="{{ sponsor.logo-url }}" alt="{{ sponsor.name }}" title="{{ sponsor.name }}"/></a>
+            <a href="{{ sponsor.url }}" target="_blank" class="sponsor"><img src="{{ sponsor.logo-url }}" alt="{{ sponsor.name }}" title="{{ sponsor.name }}"/></a>
           {% endfor %}
         </p>
         <p>Interested in sponsoring? <a href="/sponsor">Details</a></p>
