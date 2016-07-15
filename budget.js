@@ -10,7 +10,7 @@ process.exit(
           // featuring X, Y, and @lablayers
 
 + 104.00  // ticket sales  @meetup
-+   8.00  // ticket sales  @venmo
++  16.00  // ticket sales  @venmo
 +   0.00  // door sales
 + 150.00  // sponsorship   @FISGlobal
 + 125.33  // sponsorship   @Finland
