@@ -11,10 +11,10 @@ process.exit(
 
 + 104.00  // ticket sales  @meetup
 +  16.00  // ticket sales  @venmo
-+   0.00  // door sales
++  12.00  // door sales
 + 150.00  // sponsorship   @FISGlobal
 + 125.33  // sponsorship   @Finland
-+   0.00  // pitch-in      @lablayers
++   0.21  // pitch-in      @lablayers
 
 - 270.00  // tacos         @chipotle
 -   4.32  // sodas + sauce @dollartree
