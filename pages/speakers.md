@@ -8,11 +8,11 @@ permalink: /speak
 TacoJS is a monthly meetup centered around programming, tacos, and live performances.
 
 ## How do I submit a talk?
-You can either comment on this issue or send us an email. Come chat with us on Slack if you want immediate feedback.
+You can either [create a new issue on GitHub](https://github.com/TacoJS/talks/issues) or send us an email in the footer link. Come chat in #tacojs on the [PhillyDev Slack](http://phillydev.org/) if you want immediate feedback.
 
 ## When and where will it be?
-When: 6:30-9:30pm on a Thursday every month
-Where: Industrious @ Broad/Locust
+- When: 6:30-9:30pm on a Thursday every month
+- Where: Industrious @ Broad/Locust
 
 ## Do I need to be an expert to talk?
 Nope. This meetup is supposed to be fun and casual, so we want everyone to participate. We especially encourage people of under-represented groups to apply.
