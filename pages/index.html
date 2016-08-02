@@ -14,7 +14,7 @@ permalink: /
           A fun night of
           code &amp; tacos.
         </h1>
-        {% for meetup in site.meetups | limit: 1 %}
+        {% for meetup in site.meetups | reverse | limit: 1 %}
         <p>
           {% if meetup.rsvp-url %}
           <a href="{{ meetup.rsvp-url }}" class="button" target="_blank">BUY TICKETS - ${{ meetup.price }}</a>
@@ -39,7 +39,7 @@ permalink: /
 
 </header>
 {% assign curDate = site.time | date: '%s' %}
-{% for meetup in site.meetups | limit: 1 %}
+{% for meetup in site.meetups | reverse | limit: 1 %}
 <section id="schedule" class="schedule">
   <container>
     <row>

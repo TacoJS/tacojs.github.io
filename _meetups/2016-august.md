@@ -34,7 +34,7 @@ schedule:
     title: "TBD"
     author: "TacoJS"
     twitter: "tacojs"
-    description: "Want to give a talk?"
+    description: "Want to give a talk? Check out the talks page and get in touch with us!"
     emoji: "💓"
   - time: 19:30:00
     type: talk
@@ -42,7 +42,7 @@ schedule:
     title: "TBD"
     author: "TacoJS"
     twitter: "tacojs"
-    description: "Want to give a talk?"
+    description: "Want to give a talk? Check out the talks page and get in touch with us!"
     emoji: "💓"
   - time: 19:45:00
     type: event
@@ -53,7 +53,7 @@ schedule:
     title: "TBD"
     author: "TacoJS"
     twitter: "tacojs"
-    description: "Want to give a talk?"
+    description: "Want to give a talk? Check out the talks page and get in touch with us!"
     emoji: "💓"
   - time: 20:15:00
     type: talk
@@ -62,7 +62,7 @@ schedule:
     title: "TBD"
     author: "TacoJS"
     twitter: "tacojs"
-    description: "Want to give a talk?"
+    description: "Want to give a talk? Check out the talks page and get in touch with us!"
     emoji: "💓"
   - time: 20:30:00
     type: event
