@@ -16,7 +16,7 @@ Today the meetup is co-organized by {% for organizer in site.data.organizers %}{
 
 ## Sponsorship Package
 
-### $150/month
+### $180/month
 
 During the event, sponsors have a chance to talk to attendees in a casual setting. Here are some other things you get with your sponsorship:
 
