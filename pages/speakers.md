@@ -43,4 +43,4 @@ Nope, but please show up at least 30 minutes before your talk.
 
 ## What resolution is the projector?
 
-Our project is widescreen, works best at for 1080x1920 resolutions.
+Our project is widescreen, optimized for 1080x1920 resolutions.
