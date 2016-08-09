@@ -27,7 +27,7 @@ During the event, sponsors have a chance to talk to attendees in a casual settin
 - **Opt-in email list**: We ask all attendees whether they’d like to be contacted by sponsors. We’ll share the contact information of those (and only those) who have opted in.
 <!-- - **Brunch**: Every three months, we invite sponsors, speakers and performers to have brunch together. -->
 
-(Note: during the first few months of TacoJS, we may adjust the sponsorship package to match the needs of running our meetup. We will give you a month's notice before changing anything, and all leftover funds will always go to non-profits.)
+(Note: during the first few months of TacoJS, we may adjust the sponsorship package to match the needs of running our meetup. We will give you a month's notice before changing anything, and all leftover funds will always go to non-profits. See [https://github.com/TacoJS/tacojs.github.io/issues/5](https://github.com/TacoJS/tacojs.github.io/issues/5) for more info.)
 
 ## History
 The first session was in July 2016 and it has been held monthly ever since. We use funds to cover the cost of food, the venue, and equipment. **We donate all unused funds each month to non-profits** such as Coded by Kids, Hopeworks, Code for Philly, StudentRND, and GirlDevelopIt.
