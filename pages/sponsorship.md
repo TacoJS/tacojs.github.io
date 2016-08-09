@@ -36,9 +36,9 @@ The first session was in July 2016 and it has been held monthly ever since. We u
 
 |          | Event    | Sponsor 1 | Sponsor 2 | Sponsor 3 | Nonprofit     |
 | --------:|:-------- | --------- | --------- | --------- | ------------- |
-| **2016** | [July](/meetup/2016-july) | [FIS](http://www.fisglobal.com/About-Us/Careers) | OPEN | OPEN | [Coded by Kids](http://www.codedbykids.com/) |
+| **2016** | [July](/meetup/2016-july) | [FIS](http://www.fisglobal.com/About-Us/Careers) | [Visit Finland](http://www.visitfinland.com/) | OPEN | [Coded by Kids](http://www.codedbykids.com/) |
 |          | August | OPEN | OPEN | OPEN | TBD |
-|          | September | OPEN | OPEN | OPEN | TBD |
+|          | November | OPEN | OPEN | OPEN | TBD |
 
 ## Speakers & Attendees
 Our past speakers have worked as developers at established companies, as well as smaller startups. Here are a few of those companies:
