@@ -39,12 +39,12 @@ schedule:
     emoji: "💓"
   - time: 19:30:00
     type: talk
-    track: creative
-    title: "TBD"
-    author: "TacoJS"
-    twitter: "tacojs"
-    description: "Want to give a talk? Check out the talks page and get in touch with us!"
-    emoji: "💓"
+    track: technical
+    title: "Linting your CSS with StyleLint"
+    author: "Jonathan Belcher"
+    twitter: "belcherj"
+    description: "Why you should lint your CSS and how to set it up."
+    emoji: "👾"
   - time: 19:45:00
     type: event
     title: "Intermission & Live Performance"
