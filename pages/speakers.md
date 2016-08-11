@@ -27,7 +27,7 @@ Creative applications of programming. Past examples are generating lego murals o
 Something you’re excited about outside of work. Past examples are starting and maintaining an open source project, and using meditation and programming side by side.
 
 ### 1x Technical Talk:
-A deep dive on a technical topic. Past examples are optimizating your code for the V8 JavaScript engine, and using functional programming for developing UI.
+A deep dive on a technical topic. Past examples are optimizing your code for the V8 JavaScript engine, and using functional programming for developing UI.
 
 ## How long should my talk be?
 Ten minutes. There won’t be any formal Q&A; we encourage attendees to ask questions in person later. We also try to introduce you well enough so you can speed through any self-bio slides.
