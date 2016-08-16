@@ -31,12 +31,12 @@ schedule:
     title: "Introductions"
   - time: 19:15:00
     type: talk
-    track: creative
-    title: "TBD"
-    author: "TacoJS"
-    twitter: "tacojs"
-    description: "Want to give a talk? Check out the talks page and get in touch with us!"
-    emoji: "💓"
+    track: technical
+    title: "Unleashing JavaScript with NodeJS and Electron"
+    author: "Mike"
+    twitter: "m1ketardy"
+    description: "In this talk I'll introduce Electron and how it can be served with NodeJS. I’ll share my own experience with Electron and show some really cool applications."
+    emoji: "🎢"
   - time: 19:30:00
     type: talk
     track: technical
