@@ -40,22 +40,22 @@ schedule:
   - time: 19:30:00
     type: talk
     track: technical
-    title: "Linting your CSS with StyleLint"
-    author: "Jonathan Belcher"
-    twitter: "belcherj"
-    description: "Why you should lint your CSS and how to set it up."
+    title: "Pam Selle"
+    author: "Pam Selle"
+    twitter: "pamasaur"
+    description: 'The "cloud" is a mere construct in our minds, but those wild kids are taking things further with "serverless" apps. Now you don't even have an imaginary server – you can run "serverless"!'
     emoji: "👾"
   - time: 19:45:00
     type: event
     title: "Intermission & Live Performance"
   - time: 20:00:00
     type: talk
-    track: creative
-    title: "TBD"
-    author: "TacoJS"
-    twitter: "tacojs"
-    description: "Want to give a talk? Check out the talks page and get in touch with us!"
-    emoji: "💓"
+    track: technical
+    title: "Linting your CSS with StyleLint"
+    author: "Jonathan Belcher"
+    twitter: "belcherj"
+    description: "Why you should lint your CSS and how to set it up."
+    emoji: "👾"
   - time: 20:15:00
     type: talk
     type: talk
