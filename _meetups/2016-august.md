@@ -43,7 +43,7 @@ schedule:
     title: "Pam Selle"
     author: "Pam Selle"
     twitter: "pamasaur"
-    description: 'The "cloud" is a mere construct in our minds, but those wild kids are taking things further with "serverless" apps. Now you don't even have an imaginary server – you can run "serverless"!'
+    description: "The 'cloud' is a mere construct in our minds, but those wild kids are taking things further with 'serverless' apps. Now you don't even have an imaginary server – you can run 'serverless'!"
     emoji: "👾"
   - time: 19:45:00
     type: event
