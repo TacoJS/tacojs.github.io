@@ -12,7 +12,7 @@ permalink: /
 
         <h1 class="title">
           A fun night of
-          code &amp; tacos.
+          code &amp; tacos!
         </h1>
         {% for meetup in site.meetups | reverse | limit: 1 %}
         <p>
@@ -28,7 +28,7 @@ permalink: /
       </column>
       <column size="30" class="text-left">
         <p><b>DATE AND TIME</b>
-        <br>{{ meetup.date | date_to_string }} 6:30-9PM</p>
+        <br>{{ meetup.date | date_to_xmlschema | date: "%B %d, %Y" }} {{ meetup.date | date_to_xmlschema | date: "%-I:%M" }}-9pm</p>
         <br>
         <p><b>LOCATION</b>
         <br>{{ meetup.venue }} <br>{{ meetup.address }}<br>{{ meetup.city }}, {{ meetup.state }}</p>
@@ -48,7 +48,7 @@ permalink: /
         <row>
           <column size="15"></column>
           <column size="85">
-            <h1>{{ meetup.title }} Schedule</h1>
+            <h1 style="no-margin-bottom">{{ meetup.title }} Schedule</h1>
           </column>
         </row>
         {% for item in meetup.schedule %}
@@ -77,7 +77,7 @@ permalink: /
         <p>All participants are expected to follow <a href="http://jsconf.com/codeofconduct.html" target="_blank">JSConf Code of Conduct</a>.</p>
         <br>
         <h3>Tacos</h3>
-        <p>Every month, we get fresh tacos delivered from a different jawnt across the Philadelphia area. To kick things off, this month's tacos are from <a href="{{ meetup.tacos-url }}" target="_blank">{{ meetup.tacos }}</a>.</p>
+        <p>Every month, we get fresh tacos delivered from a different jawnt across the Philadelphia area. This month's tacos are from <a href="{{ meetup.tacos-url }}" target="_blank">{{ meetup.tacos }}</a>!</p>
         <br>
         <h3>Thank You</h3>
         <p>This month's event made possible by our wonderful sponsors:</p>
@@ -86,7 +86,7 @@ permalink: /
             <a href="{{ sponsor.url }}" target="_blank" class="sponsor"><img src="{{ sponsor.logo-url }}" alt="{{ sponsor.name }}" title="{{ sponsor.name }}"/></a>
           {% endfor %}
         </p>
-        <p>Interested in sponsoring? <a href="/sponsor">Details</a></p>
+        <p><strong>Interested in sponsoring? <a href="/sponsor">Details</a></strong></p>
       </column>
     </row>
   </container>
