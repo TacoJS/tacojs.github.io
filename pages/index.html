@@ -28,7 +28,7 @@ permalink: /
       </column>
       <column size="30" class="text-left">
         <p><b>DATE AND TIME</b>
-        <br>{{ meetup.date | date_to_xmlschema | date: "%B %d, %Y" }} {{ meetup.date | date_to_xmlschema | date: "%-I:%M" }}-9pm</p>
+        <br>{{ meetup.date | date_to_xmlschema | date: "%B %d, %Y" }} {{ meetup.date | date_to_xmlschema | date: "%-I:%M" }}-9:00pm</p>
         <br>
         <p><b>LOCATION</b>
         <br>{{ meetup.venue }} <br>{{ meetup.address }}<br>{{ meetup.city }}, {{ meetup.state }}</p>
