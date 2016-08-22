@@ -69,5 +69,5 @@ schedule:
   - time: 20:30:00
     type: event
     title: "bevera.js"
-    description: "Head over to for and beverages, just down the street."
+    description: "Head over to a nearby pub for beverages, there are a couple down the street."
 ---
