@@ -65,7 +65,7 @@ schedule:
     type: talk
     type: talk
     track: creative
-    title: "TBD"
+    title: "TBD or Open Mic"
     author: "TacoJS"
     twitter: "tacojs"
     description: "Want to give a talk? Check out the talks page and get in touch with us!"
