@@ -48,7 +48,7 @@ permalink: /
 <section id="schedule" class="schedule">
   <container>
     <row>
-      <column size="70">
+      <column size="70" class="timeline">
         <h1 style="no-margin-bottom">{{ meetup.title }} Schedule</h1>
         <!-- Schedule loop goes here -->
         {% for item in meetup.schedule %}
@@ -61,7 +61,7 @@ permalink: /
               {{ item.title }}
             </h2>
             {% if item.author %}
-            <p class="schedule-event-author">by {{ item.author }} <a href="https://twitter.com/{{ item.twitter }}" target="_blank">@{{ item.twitter }}</a></p>
+            <p class="schedule-event-author">{{ item.type | capitalize }} by {{ item.author }} <a href="https://twitter.com/{{ item.twitter }}" target="_blank">@{{ item.twitter }}</a></p>
             {% endif %}
             {% if item.description %}
             <p class="schedule-event-description">{{ item.description }}</p>
@@ -71,7 +71,6 @@ permalink: /
         {% endfor %}
       </column>
       <column size="30">
-        <h1>&nbsp;</h1>
         <h3>About</h3>
         <p>TacoJS is a meetup about web technology with a side of tacos and live performances. We meet on a Thursday every month.</p>
         <p>All participants are expected to follow <a href="http://jsconf.com/codeofconduct.html" target="_blank">JSConf Code of Conduct</a>.</p>

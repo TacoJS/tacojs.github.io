@@ -30,6 +30,9 @@ column {
 
 // Navigation
 .nav {
+  padding: 20px 0;
+  background: $secondary;
+  // box-shadow: 0 0 4px rgba(0,0,0,.5);
   &-brand {
     font-family: $title-font-family;
     font-size: 1.75em;
@@ -69,6 +72,7 @@ column {
 header {
   // background-color: $primary;
   // color: $white;
+  background: $secondary;
   .title {
     max-width: 560px;
   }
@@ -134,12 +138,23 @@ header {
 
 // Schedule
 .schedule {
-  background: $secondary;
-  h2, h3 {
+  background: $white;
+  .timeline {
+    background: $secondary;
+    padding-right: 15px;
+    margin-top: -30px;
+    padding-top: 30px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  h2 {
     margin-top: 0;
     text-align: left!important;
-    font-size: 32px;
+    font-size: 26px;
     line-height: 1.25em;
+  }
+  h3:first-of-type {
+    margin-bottom: .65em;
   }
   .schedule-event-time {
     text-align: right;
@@ -156,21 +171,20 @@ header {
     }
   }
   columny[size="85"], columny[size="80"] {
-    border-bottom: 2px solid rgba(0,0,0,.25);
-    padding: 5px 10px 5px 10px;
+    border-radius: 0px;
+    padding: 5px 10px 1em 10px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.25);
 
     p:last-of-type {
       margin-bottom: 0;
     }
-
-    border-bottom: 2px solid rgba(0, 0, 0, 0.25);
-    background: $secondary-darker;
-    border-radius: 4px;
-    padding-top: .5em;
     @include media-query($on-palm) {
       border-bottom: none;
     }
   }
+  // row:last-of-type columny[size="85"], row:last-of-type columny[size="80"] {
+  //   border-bottom: none;
+  // }
 }
 
 .sponsor img {
