@@ -29,7 +29,7 @@ collections:
 
 # Metadata
 keywords: "tacojs, taco, javascript, meetup, philadelphia, node.js, talks, developer, meetup.com, libertyjs"
-google-fonts: "BioRhyme:700|Suez+One|Chivo:400,700"
+google-fonts: "BioRhyme:700|Suez+One|Chivo:400,700,400i"
 google-fonts-subsets: "latin"
 google-analytics: "UA-80317923-1"
 

@@ -152,6 +152,9 @@ header {
     text-align: left!important;
     font-size: 26px;
     line-height: 1.25em;
+    line-height: 1.15em;
+    display: inline-block;
+    border-bottom: 4px solid $primary-darker;
   }
   h3:first-of-type {
     margin-bottom: .65em;
@@ -170,13 +173,16 @@ header {
       line-height: 2em;
     }
   }
+  .schedule-event-description {
+    // font-style: italic;
+  }
   columny[size="85"], columny[size="80"] {
     border-radius: 0px;
     padding: 5px 10px 1em 10px;
-    border-bottom: 3px solid #d5c624;
+    // border-bottom: 3px solid $secondary-darker;
 
     p:last-of-type {
-      margin-bottom: 0;
+      // margin-bottom: 0;
     }
     @include media-query($on-palm) {
       border-bottom: none;

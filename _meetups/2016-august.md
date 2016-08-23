@@ -24,16 +24,19 @@ schedule:
     type: event
     title: "Cowork!"
     description: "Get out of work early? Feel free to swing by for an hour of coworking."
+    emoji: "🏡"
   - time: 18:15:00
     type: event
     title: "Get some tasty tacos and drinks"
+    emoji: "🌮"
   - time: 19:00:00
     type: event
     title: "Introductions"
+    emoji: "👋"
   - time: 19:15:00
     type: talk
     track: technical
-    title: "Unleashing JavaScript with NodeJS &amp; Electron"
+    title: "Unleashing JavaScript with Node &amp; Electron"
     author: "Mike"
     twitter: "m1ketardy"
     description: "In this talk I'll introduce Electron and how it can be served with NodeJS. I’ll share my own experience with Electron and show some really cool applications."
@@ -45,10 +48,11 @@ schedule:
     author: "Pam Selle"
     twitter: "pamasaur"
     description: "The 'cloud' is a mere construct in our minds, but those wild kids are taking things further with 'serverless' apps. Now you don't even have an imaginary server – you can run 'serverless'!"
-    emoji: "👾"
+    emoji: "⛅️"
   - time: 19:45:00
     type: event
     title: "Intermission & Live Performance"
+    emoji: "🎤"
   - time: 20:00:00
     type: talk
     track: technical
@@ -70,4 +74,5 @@ schedule:
     type: event
     title: "bevera.js"
     description: "Head over to a nearby pub for beverages, there are a couple down the street."
+    emoji: "🍷"
 ---

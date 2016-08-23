@@ -59,23 +59,16 @@ permalink: /
           <columny size="85">
             <h2 class="schedule-event-title">
               {{ item.title }}
-            </h2>
+            </h2> {{ item.emoji }}
             {% if item.author %}
             <p class="schedule-event-author">{{ item.type | capitalize }} by {{ item.author }} <a href="https://twitter.com/{{ item.twitter }}" target="_blank">@{{ item.twitter }}</a></p>
             {% endif %}
-            {% if item.description %}
+            {% if item.description %}{% if item.type == 'talk' %}<em>{% endif %}
             <p class="schedule-event-description">{{ item.description }}</p>
-            {% endif %}
+            {% if item.type == 'talk' %}</em>{% endif %}{% endif %}
           </columny>
         </row>
         {% endfor %}
-        <row>
-          <column size="15">
-          </column>
-          <column size="85">
-            <p>Come back next month for more amazing talks and tacos!</p>
-          </column>
-        </row>
       </column>
       <column size="30">
         <h3>About</h3>
