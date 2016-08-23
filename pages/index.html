@@ -27,7 +27,7 @@ permalink: /
           <a href="{{ meetup.rsvp-url }}" class="button button-large" target="_blank">Buy Tickets <icon class="icon-right"></icon></a>
           {% else %}
           <a href="#" class="button">TICKETS SOON!</a>
-          {% endif %} &nbsp;&nbsp;
+          {% endif %} &nbsp;&nbsp; {{ meetup.subtitle }}
         </p>
       </column>
       <column size="5"></column>
@@ -49,7 +49,7 @@ permalink: /
   <container>
     <row>
       <column size="70" class="timeline">
-        <h1 style="no-margin-bottom">{{ meetup.title }} Schedule</h1>
+        <h1>{{ meetup.title }} Schedule</h1>
         <!-- Schedule loop goes here -->
         {% for item in meetup.schedule %}
         <row class="schedule-event">
@@ -69,6 +69,13 @@ permalink: /
           </columny>
         </row>
         {% endfor %}
+        <row>
+          <column size="15">
+          </column>
+          <column size="85">
+            <p>Come back next month for more amazing talks and tacos!</p>
+          </column>
+        </row>
       </column>
       <column size="30">
         <h3>About</h3>

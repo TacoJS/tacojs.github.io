@@ -33,7 +33,7 @@ schedule:
   - time: 19:15:00
     type: talk
     track: technical
-    title: "Unleashing JavaScript with NodeJS and Electron"
+    title: "Unleashing JavaScript with NodeJS &amp; Electron"
     author: "Mike"
     twitter: "m1ketardy"
     description: "In this talk I'll introduce Electron and how it can be served with NodeJS. I’ll share my own experience with Electron and show some really cool applications."

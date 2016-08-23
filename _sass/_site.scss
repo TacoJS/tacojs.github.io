@@ -158,7 +158,7 @@ header {
   }
   .schedule-event-time {
     text-align: right;
-    line-height: 50px;
+    line-height: 40px;
     vertical-align: middle;
     padding-left: 0;
     padding-right: 15px;
@@ -173,7 +173,7 @@ header {
   columny[size="85"], columny[size="80"] {
     border-radius: 0px;
     padding: 5px 10px 1em 10px;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.25);
+    border-bottom: 3px solid #d5c624;
 
     p:last-of-type {
       margin-bottom: 0;
