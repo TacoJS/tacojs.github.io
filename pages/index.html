@@ -4,34 +4,39 @@ home: true
 permalink: /
 ---
 
-<header id="welcome">
+<header id="welcome" class="cover-photo">
 
   <container>
     <row align="middle" float="center">
-      <column size="55" class="text-left">
+      <column size="70" class="text-left">
 
         <h1 class="title">
           A fun night of
           code &amp; tacos!
         </h1>
         {% for meetup in site.meetups | reverse | limit: 1 %}
-        <p>
+        <p class="subtitle">
+          Our next meetup will be on {{ meetup.date | date_to_xmlschema | date: "<b>%A, %B %d</b> at %-I:%M %P" }} at <b>{{ meetup.venue }}</b> in {{ meetup.city }} (<a href="https://www.google.com/maps/search/{{ meetup.address }}, {{ meetup.city}}" target="_blank">map</a>).
+        </p>
+        <p class="subtitle">
+          Tickets are ${{ meetup.price }} and leftover proceeds go to <a href="{{ meetup.charity-url }}" target="_blank">{{ meetup.charity }}</a>.
+        </p>
+        <br>
+        <p class="no-margin-bottom">
           {% if meetup.rsvp-url %}
-          <a href="{{ meetup.rsvp-url }}" class="button" target="_blank">BUY TICKETS - ${{ meetup.price }}</a>
+          <a href="{{ meetup.rsvp-url }}" class="button button-large" target="_blank">Buy Tickets <icon class="icon-right"></icon></a>
           {% else %}
           <a href="#" class="button">TICKETS SOON!</a>
           {% endif %} &nbsp;&nbsp;
-          Proceeds go to <a href="{{ meetup.charity-url }}" target="_blank">{{ meetup.charity }}</a>
         </p>
       </column>
-      <column size="15" class="text-left">
-      </column>
-      <column size="30" class="text-left">
-        <p><b>DATE AND TIME</b>
+      <column size="5"></column>
+      <column size="25" class="text-left">
+        <!-- <p><b>DATE AND TIME</b>
         <br>{{ meetup.date | date_to_xmlschema | date: "%B %d, %Y" }} {{ meetup.date | date_to_xmlschema | date: "%-I:%M" }}-9:00pm</p>
         <br>
         <p><b>LOCATION</b>
-        <br>{{ meetup.venue }} <br>{{ meetup.address }}<br>{{ meetup.city }}, {{ meetup.state }}</p>
+        <br>{{ meetup.venue }} <br>{{ meetup.address }}<br>{{ meetup.city }}, {{ meetup.state }}</p> -->
         {% endfor %}
       </column>
     </row>
@@ -44,13 +49,8 @@ permalink: /
   <container>
     <row>
       <column size="70">
+        <h1 style="no-margin-bottom">{{ meetup.title }} Schedule</h1>
         <!-- Schedule loop goes here -->
-        <row>
-          <column size="15"></column>
-          <column size="85">
-            <h1 style="no-margin-bottom">{{ meetup.title }} Schedule</h1>
-          </column>
-        </row>
         {% for item in meetup.schedule %}
         <row class="schedule-event">
           <columny size="15" class="schedule-event-time">
@@ -78,6 +78,7 @@ permalink: /
         <br>
         <h3>Tacos</h3>
         <p>Every month, we get fresh tacos delivered from a different jawnt across the Philadelphia area. This month's tacos are from <a href="{{ meetup.tacos-url }}" target="_blank">{{ meetup.tacos }}</a>!</p>
+        <p>If you have dietary restrictions we should be aware of, please tell us in the form after you RSVP.</p>
         <br>
         <h3>Thank You</h3>
         <p>This month's event made possible by our wonderful sponsors:</p>
@@ -86,7 +87,7 @@ permalink: /
             <a href="{{ sponsor.url }}" target="_blank" class="sponsor"><img src="{{ sponsor.logo-url }}" alt="{{ sponsor.name }}" title="{{ sponsor.name }}"/></a>
           {% endfor %}
         </p>
-        <p><strong>Interested in sponsoring? <a href="/sponsor">Details</a></strong></p>
+        <p><strong>Interested in sponsoring? <a href="/sponsor">Details</a></strong>. (Leftover proceeds go to charity!)</p>
       </column>
     </row>
   </container>
