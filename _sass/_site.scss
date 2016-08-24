@@ -85,7 +85,7 @@ header {
   }
   &.cover-photo {
     background-color: black;
-    background-image: url(http://localhost:4000/media/photos/one_darker.jpg);
+    background-image: url(/media/photos/one_darker.jpg);
     background-size: cover;
     background-position: center;
     color: white;
