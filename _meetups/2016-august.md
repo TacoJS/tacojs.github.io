@@ -16,9 +16,9 @@ tacos-url: "https://dostacosphilly.com/"
 rsvp-url: "https://www.meetup.com/Philadelphia-JavaScript-Developers/events/233237203/"
 price: 10
 sponsors:
-#  - name: "TBD"
-#    logo-url: "/media/logos/foo.png"
-#    url: "http://example.com/"
+  - name: "Honda"
+    logo-url: "/media/logos/honda.png"
+    url: "http://www.honda.com/"
 schedule:
   - time: 17:00:00
     type: event
