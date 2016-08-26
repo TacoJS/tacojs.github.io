@@ -31,7 +31,7 @@ process.exit(
           // featuring @m1ketardy, @pamasaur, and @belcherj
 
 + 250.00  // ticket sales  @meetup
-+ 125.00  // sponsorship   @honda
++ 171.60  // sponsorship   @honda
 
 -  31.25  // ticketing     @meetup & @wepay
 - 311.89  // 64 tacos      @dostacosphilly
