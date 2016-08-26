@@ -6,8 +6,8 @@ process.exit(
           // for details, see our accountant:
           // https://travis-ci.org/tacojs/tacojs.github.io
 
-          // TacoJS #1, 2016-07-14 at @IndustriousHQ
-          // featuring X, Y, and @lablayers
+          // TacoJS v0.1, 2016-07-14 at @IndustriousHQ
+          // featuring @, @, and @lablayers
 
 + 104.00  // ticket sales  @meetup
 +  16.00  // ticket sales  @venmo
@@ -27,4 +27,15 @@ process.exit(
 
 -   0.00  // donation      @CodedyByKids
 
+          // TacoJS v0.2, 2016-08-25 at @IndustriousHQ
+          // featuring @m1ketardy, @pamasaur, and @belcherj
+
++ 250.00  // ticket sales  @meetup
++ 125.00  // sponsorship   @honda
+
+-  31.25  // ticketing     @meetup & @wepay
+- 311.89  // 64 tacos      @dostacosphilly
+-   5.16  // soda/chips    @dollartree
+
+-  73.30  // donation      @CodedyByKids
 )
