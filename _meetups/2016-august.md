@@ -53,7 +53,7 @@ schedule:
     type: event
     title: "Intermission & Live Karaoke.js"
     emoji: "🎤"
-  - time: 20:00:00o
+  - time: 20:00:00
     type: talk
     track: technical
     title: "Linting your CSS with StyleLint"
