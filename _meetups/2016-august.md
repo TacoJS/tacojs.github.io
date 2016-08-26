@@ -53,7 +53,7 @@ schedule:
     type: event
     title: "Intermission & Live Karaoke.js"
     emoji: "🎤"
-  - time: 20:00:00
+  - time: 20:00:00o
     type: talk
     track: technical
     title: "Linting your CSS with StyleLint"
@@ -63,6 +63,13 @@ schedule:
     emoji: "👾"
   - time: 20:15:00
     type: talk
+    track: technical
+    title: "Pokemon Go API Development"
+    author: "Brent Schooley"
+    twitter: "brentschooley"
+    description: ""
+    emoji: "🐀"
+  - time: 20:30:00
     type: talk
     track: creative
     title: "TBD or Open Mic"
@@ -70,7 +77,7 @@ schedule:
     twitter: "tacojs"
     description: "Want to give a talk? Check out the talks page and get in touch with us!"
     emoji: "💓"
-  - time: 20:30:00
+  - time: 20:45:00
     type: event
     title: "bevera.js"
     description: "Head over to a nearby pub for beverages, there are a couple down the street."
