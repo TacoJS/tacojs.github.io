@@ -10,9 +10,9 @@ city: "Philadelphia"
 state: "PA"
 intersection: "Broad & Locust"
 charity: “StudentRND”
-charity-url: "http://studentrnd.org”
-tacos: “Chipotle”
-tacos-url: "https://chipotle.com/“
+charity-url: "http://studentrnd.org"
+tacos: "Chipotle"
+tacos-url: "https://chipotle.com/"
 # rsvp-url: “TBD”
 price: 10
 sponsors:
