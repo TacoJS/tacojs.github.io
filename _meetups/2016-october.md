@@ -36,19 +36,19 @@ schedule:
   - time: 19:15:00
     type: talk
     track: technical
-    title: Talk TBD
-    author: TacoJS
-    twitter: tacojs_phl
-    description: Come give a talk at TacoJS! See the <a href=‘http://tacojs.rocks/speak'>‘Speak’</a> page for more details.
-    emoji: 😎
+    title: "Talk TBD"
+    author: "TacoJS"
+    twitter: "tacojs_phl"
+    description: "Come give a talk at TacoJS! See the <a href='http://tacojs.rocks/speak'>‘Speak’</a> page for more details."
+    emoji: "😎"
   - time: 19:30:00
     type: talk
     track: technical
-    title: Talk TBD
-    author: TacoJS
-    twitter: tacojs_phl
-    description: Come give a talk at TacoJS! See the <a href=‘http://tacojs.rocks/speak'>‘Speak’</a> page for more details.
-    emoji: 😎
+    title: "Talk TBD"
+    author: "TacoJS"
+    twitter: "tacojs_phl"
+    description: "Come give a talk at TacoJS! See the <a href='http://tacojs.rocks/speak'>‘Speak’</a> page for more details."
+    emoji: "😎"
   - time: 19:45:00
     type: event
     title: "Intermission & Live Performance”
@@ -56,27 +56,27 @@ schedule:
   - time: 20:00:00
     type: talk
     track: technical
-    title: Talk TBD
-    author: TacoJS
-    twitter: tacojs_phl
-    description: Come give a talk at TacoJS! See the <a href=‘http://tacojs.rocks/speak'>‘Speak’</a> page for more details.
-    emoji: 😎
+    title: "Talk TBD"
+    author: "TacoJS"
+    twitter: "tacojs_phl"
+    description: "Come give a talk at TacoJS! See the <a href='http://tacojs.rocks/speak'>‘Speak’</a> page for more details."
+    emoji: "😎"
   - time: 20:15:00
     type: talk
     track: technical
-    title: Talk TBD
-    author: TacoJS
-    twitter: tacojs_phl
-    description: Come give a talk at TacoJS! See the <a href=‘http://tacojs.rocks/speak'>‘Speak’</a> page for more details.
-    emoji: 😎
+    title: "Talk TBD"
+    author: "TacoJS"
+    twitter: "tacojs_phl"
+    description: "Come give a talk at TacoJS! See the <a href='http://tacojs.rocks/speak'>‘Speak’</a> page for more details."
+    emoji: "😎"
   - time: 20:30:00
     type: talk
     track: technical
-    title: Talk TBD
-    author: TacoJS
-    twitter: tacojs_phl
-    description: Come give a talk at TacoJS! See the <a href=‘http://tacojs.rocks/speak'>‘Speak’</a> page for more details.
-    emoji: 😎
+    title: "Open Mic or Talk TBD"
+    author: "TacoJS"
+    twitter: "tacojs_phl"
+    description: "Come give a talk at TacoJS! See the <a href='http://tacojs.rocks/speak'>‘Speak’</a> page for more details."
+    emoji: "😎"
   - time: 20:45:00
     type: event
     title: "bevera.js"
