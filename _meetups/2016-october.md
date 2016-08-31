@@ -51,7 +51,7 @@ schedule:
     emoji: "😎"
   - time: 19:45:00
     type: event
-    title: "Intermission & Live Performance”
+    title: "Intermission & Live Performance"
     emoji: "🎤"
   - time: 20:00:00
     type: talk
