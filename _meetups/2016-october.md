@@ -1,7 +1,7 @@
 ---
 layout: meetup
 id: 0.3
-title: “October 2016"
+title: "October 2016"
 subtitle: “v0.3 Spooktacular Special”
 date: 2016-10-27 18:00:00
 venue: "CandiDate/Industrious Office"
