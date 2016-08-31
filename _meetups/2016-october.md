@@ -9,7 +9,7 @@ address: "230 S Broad St, 17th Floor"
 city: "Philadelphia"
 state: "PA"
 intersection: "Broad & Locust"
-charity: “StudentRND”
+charity: "StudentRND"
 charity-url: "http://studentrnd.org"
 tacos: "Chipotle"
 tacos-url: "https://chipotle.com/"
