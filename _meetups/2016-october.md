@@ -13,7 +13,7 @@ charity: "StudentRND"
 charity-url: "http://studentrnd.org"
 tacos: "Chipotle"
 tacos-url: "https://chipotle.com/"
-# rsvp-url: “TBD”
+rsvp-url: "https://www.meetup.com/Philadelphia-JavaScript-Developers/events/234530510/"
 price: 10
 sponsors:
 # - name: "Honda"
