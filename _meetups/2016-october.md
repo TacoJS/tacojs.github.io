@@ -25,14 +25,22 @@ schedule:
     title: "Cowork!"
     description: "Get out of work early? Feel free to swing by for an hour of coworking."
     emoji: "🏡"
-  - time: 18:15:00
+  - time: 18:00:00
     type: event
     title: "Get some tasty tacos and drinks"
     emoji: "🌮"
-  - time: 19:00:00
+  - time: 18:45:00
     type: event
     title: "Introductions"
     emoji: "👋"
+  - time: 19:00:00
+    type: talk
+    track: technical
+    title: "Talk TBD"
+    author: "TacoJS"
+    twitter: "tacojs_phl"
+    description: "Come give a talk at TacoJS! See the <a href='http://tacojs.rocks/speak'>‘Speak’</a> page for more details."
+    emoji: "😎"
   - time: 19:15:00
     type: talk
     track: technical
@@ -42,6 +50,10 @@ schedule:
     description: "Come give a talk at TacoJS! See the <a href='http://tacojs.rocks/speak'>‘Speak’</a> page for more details."
     emoji: "😎"
   - time: 19:30:00
+    type: event
+    title: "Intermission & Live Performance"
+    emoji: "🎤"
+  - time: 19:45:00
     type: talk
     track: technical
     title: "Talk TBD"
@@ -49,10 +61,6 @@ schedule:
     twitter: "tacojs_phl"
     description: "Come give a talk at TacoJS! See the <a href='http://tacojs.rocks/speak'>‘Speak’</a> page for more details."
     emoji: "😎"
-  - time: 19:45:00
-    type: event
-    title: "Intermission & Live Performance"
-    emoji: "🎤"
   - time: 20:00:00
     type: talk
     track: technical
@@ -62,14 +70,6 @@ schedule:
     description: "Come give a talk at TacoJS! See the <a href='http://tacojs.rocks/speak'>‘Speak’</a> page for more details."
     emoji: "😎"
   - time: 20:15:00
-    type: talk
-    track: technical
-    title: "Talk TBD"
-    author: "TacoJS"
-    twitter: "tacojs_phl"
-    description: "Come give a talk at TacoJS! See the <a href='http://tacojs.rocks/speak'>‘Speak’</a> page for more details."
-    emoji: "😎"
-  - time: 20:30:00
     type: talk
     track: technical
     title: "Open Mic or Talk TBD"
