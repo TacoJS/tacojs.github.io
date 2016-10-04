@@ -35,12 +35,12 @@ schedule:
     emoji: "👋"
   - time: 19:00:00
     type: talk
-    track: technical
-    title: "Talk TBD"
-    author: "TacoJS"
-    twitter: "tacojs_phl"
-    description: "Come give a talk at TacoJS! See the <a href='http://tacojs.rocks/speak'>‘Speak’</a> page for more details."
-    emoji: "😎"
+    track: passion
+    title: "Code Tests as Living Documentation"
+    author: "Logan Crossan"
+    twitter: "logan_crossan"
+    description: "A talk on the importance of unit testing."
+    emoji: "💯"
   - time: 19:15:00
     type: talk
     track: technical
