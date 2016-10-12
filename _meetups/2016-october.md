@@ -43,12 +43,12 @@ schedule:
     emoji: "💯"
   - time: 19:15:00
     type: talk
-    track: technical
-    title: "Talk TBD"
-    author: "TacoJS"
-    twitter: "tacojs_phl"
-    description: "Come give a talk at TacoJS! See the <a href='http://tacojs.rocks/speak'>‘Speak’</a> page for more details."
-    emoji: "😎"
+    track: creative
+    title: "Making a realtime Twitter data visualization with EON.js"
+    author: "Lizzie Siegle"
+    twitter: "lizziepika"
+    description: "A quick dive into Project EON, an open-source, web-based real-time data visualization framework."
+    emoji: "🏀"
   - time: 19:30:00
     type: event
     title: "Intermission & Live Performance"
