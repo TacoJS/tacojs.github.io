@@ -44,23 +44,24 @@ schedule:
   - time: 19:15:00
     type: talk
     track: creative
-    title: "Realtime Data Visualizations with EON.js"
+    title: "Realtime Data Visualizations"
     author: "Lizzie Siegle"
     twitter: "lizziepika"
-    description: "A quick dive into Project EON, an open-source, web-based real-time data visualization framework."
+    description: "A quick dive into Project EON: An open-source, web-based real-time data visualization framework."
     emoji: "🏀"
   - time: 19:30:00
     type: event
     title: "Intermission & Live Performance"
-    emoji: "🎤"
+    description: "Featuring a special guitar solo from Abraham Walters"
+    emoji: "🎸"
   - time: 19:45:00
     type: talk
     track: technical
-    title: "Talk TBD"
-    author: "TacoJS"
-    twitter: "tacojs_phl"
-    description: "Come give a talk at TacoJS! See the <a href='http://tacojs.rocks/speak'>‘Speak’</a> page for more details."
-    emoji: "😎"
+    title: "A Tool for Scalable Local Development"
+    author: "Abraham Walters"
+    twitter: 
+    description: "For the past two years I have setup client-side build systems using tools like bash, node, python, gulp, browserify, and webpack. I found the current ecosystem not up to the task of what I wanted to do with a large development team, so I built my own tool called Forge."
+    emoji: "🔨"
   - time: 20:00:00
     type: talk
     track: technical
