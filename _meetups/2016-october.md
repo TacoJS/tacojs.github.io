@@ -44,7 +44,7 @@ schedule:
   - time: 19:15:00
     type: talk
     track: creative
-    title: "Making a realtime Twitter data visualization with EON.js"
+    title: "Realtime Data Visualizations with EON.js"
     author: "Lizzie Siegle"
     twitter: "lizziepika"
     description: "A quick dive into Project EON, an open-source, web-based real-time data visualization framework."
