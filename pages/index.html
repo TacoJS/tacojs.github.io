@@ -14,8 +14,7 @@ permalink: /
           A fun night of
           code &amp; tacos!
         </h1>
-        {% assign first_meetup = site.meetups | sort:"id" | reverse %}
-        {% for meetup in first_meetup | limit: 1 %}
+        {% assign meetup = site.meetups | sort:"id" | reverse | first %}
         <p class="subtitle">
           Our next meetup will be on {{ meetup.date | date_to_xmlschema | date: "<b>%A, %B %d</b> at %-I:%M %P" }} at <b>{{ meetup.venue }}</b> in {{ meetup.city }} (<a href="https://www.google.com/maps/search/{{ meetup.address }}, {{ meetup.city}}" target="_blank">map</a>).
         </p>
@@ -38,13 +37,11 @@ permalink: /
         <br>
         <p><b>LOCATION</b>
         <br>{{ meetup.venue }} <br>{{ meetup.address }}<br>{{ meetup.city }}, {{ meetup.state }}</p> -->
-        {% endfor %}
       </column>
     </row>
   </container>
 
 </header>
-{% for meetup in first_meetup | limit: 1 %}
 <section id="schedule" class="schedule">
   <container>
     <row>
@@ -91,7 +88,6 @@ permalink: /
     </row>
   </container>
 </section>
-{% endfor %}
 
 <section id="involved">
   <container>
