@@ -54,6 +54,7 @@ schedule:
     track: technical
     title: "Functional Reactive Systems"
     author: "Nate Abele"
+    twitter: "nateabele"
     description: "The Holy Grail of single-page applications are 'always-on' interfaces that continuously respond to user interaction and real-time remote data, but managing complex UIs gets messy in a hurry. We'll talk about the principles of functional reactive programming (FRP), and how they can bring reliability and sanity to your architecture & development process."
     emoji: "🔨"
   - time: 20:00:00
