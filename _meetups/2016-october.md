@@ -50,17 +50,11 @@ schedule:
     description: "Come give a talk at TacoJS! See the <a href='http://tacojs.rocks/speak'>‘Speak’</a> page for more details."
     emoji: "😎"
   - time: 19:30:00
-    type: event
-    title: "Intermission & Live Performance"
-    description: "Featuring a special guitar solo from Abraham Walters"
-    emoji: "🎸"
-  - time: 19:45:00
     type: talk
     track: technical
-    title: "A Tool for Scalable Local Development"
-    author: "Abraham Walters"
-    twitter: 
-    description: "For the past two years I have setup client-side build systems using tools like bash, node, python, gulp, browserify, and webpack. I found the current ecosystem not up to the task of what I wanted to do with a large development team, so I built my own tool called Forge."
+    title: "Functional Reactive Systems"
+    author: "Nate Abele"
+    description: "The Holy Grail of single-page applications are 'always-on' interfaces that continuously respond to user interaction and real-time remote data, but managing complex UIs gets messy in a hurry. We'll talk about the principles of functional reactive programming (FRP), and how they can bring reliability and sanity to your architecture & development process."
     emoji: "🔨"
   - time: 20:00:00
     type: talk
