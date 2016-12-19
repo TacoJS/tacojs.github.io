@@ -1,0 +1,80 @@
+---
+layout: meetup
+id: 0.4
+title: "Janurary 2017"
+subtitle: "v0.4 Frosty Delight"
+date: 2017-01-24 18:00:00
+venue: "CandiDate/Industrious Office"
+address: "230 S Broad St, 17th Floor"
+city: "Philadelphia"
+state: "PA"
+intersection: "Broad & Locust"
+charity: "Coded by Kids"
+charity-url: "http://www.codedbykids.com"
+tacos: "TBD"
+tacos-url: "#"
+# rsvp-url: ""
+price: 10
+sponsors:
+# - name: "Honda"
+#   logo-url: "/media/logos/honda.png"
+#   url: "http://www.honda.com/"
+schedule:
+  - time: 17:00:00
+    type: event
+    title: "Cowork!"
+    description: "Get out of work early? Feel free to swing by for an hour of coworking."
+    emoji: "🏡"
+  - time: 18:00:00
+    type: event
+    title: "Get some tasty tacos and drinks"
+    emoji: "🌮"
+  - time: 18:45:00
+    type: event
+    title: "Introductions"
+    emoji: "👋"
+  - time: 19:00:00
+    type: talk
+    track: technical
+    title: "Yeoman Generators: How Hard It Could Be?"
+    author: "Mickael Tardy"
+    twitter: "m1ketardy"
+    description: 
+    emoji: "🎩"
+  - time: 19:15:00
+    type: talk
+    track: technical
+    title: "Isomorphic Clojure Web Apps"
+    author: "Brian Hurlow"
+    twitter: "bhurlow"
+    description: "A talk about techniques for developing websites using isomorphic Clojure code – so Clojure(script) that runs on the jvm and in the browser sharing as much generic code as possible. This opens up areas lots of interesting possibilities for web applications – server-side rendering of React components, lots more code reuse, hot-reloading, this kind of 🔥. Many people have explored these techniques in js, but less so in the Clojure world."
+    emoji: "🔥"
+  - time: 19:30:00
+    type: talk
+    title: "Guitar Covers"
+    author: "Abraham Walters"
+    twitter: "abe"
+    description: "Some cool guitar covers from Abraham."
+    emoji: "🎸"
+  - time: 19:35:00
+    type: talk
+    track: technical
+    title: "Give a talk!"
+    author: "TacoJS"
+    twitter: "tacojs_phl"
+    description: "Come give a talk at TacoJS! See the <a href='http://tacojs.rocks/speak'>‘Speak’</a> page for more details."
+    emoji: "✅"
+  - time: 20:00:00
+    type: talk
+    track: technical
+    title: "Open Mic or Talk TBD"
+    author: "TacoJS"
+    twitter: "tacojs_phl"
+    description: "Come give a talk at TacoJS! See the <a href='http://tacojs.rocks/speak'>‘Speak’</a> page for more details."
+    emoji: "😎"
+#  - time: 20:45:00
+#    type: event
+#    title: "bevera.js"
+#    description: "Head over to a nearby pub for beverages, there are a couple down the street."
+#    emoji: "🍷"
+---
