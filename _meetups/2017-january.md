@@ -13,7 +13,7 @@ charity: "Coded by Kids"
 charity-url: "http://www.codedbykids.com"
 tacos: "TBD"
 tacos-url: "#"
-# rsvp-url: ""
+rsvp-url: "https://www.meetup.com/Philadelphia-JavaScript-Developers/events/236495570/"
 price: 10
 sponsors:
 # - name: "Honda"
