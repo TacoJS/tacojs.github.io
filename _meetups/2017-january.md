@@ -59,11 +59,11 @@ schedule:
   - time: 19:35:00
     type: talk
     track: technical
-    title: "Give a talk!"
-    author: "TacoJS"
-    twitter: "tacojs_phl"
-    description: "Come give a talk at TacoJS! See the <a href='http://tacojs.rocks/speak'>‘Speak’</a> page for more details."
-    emoji: "✅"
+    title: "Apostrophe: Philly's own node.js CMS"
+    author: "Tom Boutell"
+    twitter: "boutell"
+    description: "A lightning introduction to Apostrophe, an open-source CMS built entirely on node.js and JavaScript here in Philly. Learn how to create sites with contextual editing, custom widgets and custom content times with a minimum of code... and when there is code, it's all JavaScript."
+    emoji: "📝"
   - time: 20:00:00
     type: talk
     track: technical
