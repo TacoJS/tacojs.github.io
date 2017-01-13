@@ -44,11 +44,11 @@ schedule:
   - time: 19:15:00
     type: talk
     track: technical
-    title: "Isomorphic Clojure Web Apps"
-    author: "Brian Hurlow"
-    twitter: "bhurlow"
-    description: "A talk about techniques for developing websites using isomorphic Clojure code – so Clojure(script) that runs on the jvm and in the browser sharing as much generic code as possible. This opens up areas lots of interesting possibilities for web applications – server-side rendering of React components, lots more code reuse, hot-reloading, this kind of 🔥. Many people have explored these techniques in js, but less so in the Clojure world."
-    emoji: "🔥"
+    title: "A Better Technical Interview"
+    author: "Sam Jones"
+    twitter: "samjonester"
+    description: "Technical interviews are scary! They often involve pairing, but not the way we do it in real life. Let's discuss a better way to handle technical interviews than playing buzzword bingo and solving algorithms as fast as we can!"
+    emoji: "💚"
   - time: 19:30:00
     type: talk
     title: "Guitar Covers"
@@ -59,19 +59,19 @@ schedule:
   - time: 19:35:00
     type: talk
     track: technical
+    title: "Isomorphic Clojure Web Apps"
+    author: "Brian Hurlow"
+    twitter: "bhurlow"
+    description: "A talk about techniques for developing websites using isomorphic Clojure code – so Clojure(script) that runs on the jvm and in the browser sharing as much generic code as possible. This opens up areas lots of interesting possibilities for web applications – server-side rendering of React components, lots more code reuse, hot-reloading, this kind of 🔥. Many people have explored these techniques in js, but less so in the Clojure world."
+    emoji: "🔥"
+  - time: 20:00:00
+    type: talk
+    track: technical
     title: "Apostrophe: Philly's own node.js CMS"
     author: "Tom Boutell"
     twitter: "boutell"
     description: "A lightning introduction to Apostrophe, an open-source CMS built entirely on node.js and JavaScript here in Philly. Learn how to create sites with contextual editing, custom widgets and custom content times with a minimum of code... and when there is code, it's all JavaScript."
     emoji: "📝"
-  - time: 20:00:00
-    type: talk
-    track: technical
-    title: "A Better Technical Interview"
-    author: "Sam Jones"
-    twitter: "samjonester"
-    description: "Technical interviews are scary! They often involve pairing, but not the way we do it in real life. Let's discuss a better way to handle technical interviews than playing buzzword bingo and solving algorithms as fast as we can!"
-    emoji: "💚"
 #  - time: 20:45:00
 #    type: event
 #    title: "bevera.js"
