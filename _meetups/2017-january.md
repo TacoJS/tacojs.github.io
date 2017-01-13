@@ -67,11 +67,11 @@ schedule:
   - time: 20:00:00
     type: talk
     track: technical
-    title: "Open Mic or Talk TBD"
-    author: "TacoJS"
-    twitter: "tacojs_phl"
-    description: "Come give a talk at TacoJS! See the <a href='http://tacojs.rocks/speak'>‘Speak’</a> page for more details."
-    emoji: "😎"
+    title: "A Better Technical Interview"
+    author: "Sam Jones"
+    twitter: "samjonester"
+    description: "Technical interviews are scary! They often involve pairing, but not the way we do it in real life. Let's discuss a better way to handle technical interviews than playing buzzword bingo and solving algorithms as fast as we can!"
+    emoji: "💚"
 #  - time: 20:45:00
 #    type: event
 #    title: "bevera.js"
