@@ -1,7 +1,7 @@
 ---
 layout: meetup
 id: 0.4
-title: "Janurary 2017"
+title: "January 2017"
 subtitle: "v0.4 Frosty Delight"
 date: 2017-01-24 18:00:00
 venue: "CandiDate/Industrious Office"
