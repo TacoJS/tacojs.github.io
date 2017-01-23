@@ -11,8 +11,8 @@ state: "PA"
 intersection: "Broad & Locust"
 charity: "Coded by Kids"
 charity-url: "http://www.codedbykids.com"
-tacos: "TBD"
-tacos-url: "#"
+tacos: "Buena Onda"
+tacos-url: "http://www.buenaondatacos.com/"
 rsvp-url: "https://www.meetup.com/Philadelphia-JavaScript-Developers/events/236495570/"
 price: 10
 sponsors:
