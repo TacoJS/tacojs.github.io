@@ -5,7 +5,8 @@ permalink: /sponsor
 ---
 
 ## About
-TacoJS is a monthly meetup centered around programming, tacos, and live performances. It started when <a href="https://twitter.com/{{ site.data.organizers.first.twitter }}">{{ site.data.organizers.first.name }}</a> wished Philly tech meetups served tacos and discovered <a href="https://wafflejs.com/" target="_blank">WaffleJS</a> &amp; <a href="https://donutjs.club/" target="_blank">DonutJS</a> through a DuckDuckGo search. He was inspired by these events and wanted to organize a Philly technology meetup that would do these things:
+
+TacoJS is a monthly meetup centered around programming, tacos, and live performances. We are organized with these goals in mind:
 
 - Have attendees actually meet and talk to one another. :wave:
 - Promote a diverse and inclusive environment. :heart:
@@ -14,9 +15,9 @@ TacoJS is a monthly meetup centered around programming, tacos, and live performa
 Today the meetup is co-organized by {% for organizer in site.data.organizers %}{% if site.data.organizers.last != organizer %}
   <a href="https://twitter.com/{{ organizer.twitter }}" target="_blank">{{ organizer.name }}</a>,{% else %} and <a href="https://twitter.com/{{ organizer.twitter }}" target="_blank">{{ organizer.name }}</a>.{% endif %}{% endfor %} It’s held in Philadelphia every month on a Thursday.
 
-## Sponsorship Package
+## Sponsorship
 
-### $180/month (Suggested)
+### $250/month (Suggested)
 
 During the event, sponsors have a chance to talk to attendees in a casual setting. Here are some other things you get with your sponsorship:
 
@@ -25,7 +26,6 @@ During the event, sponsors have a chance to talk to attendees in a casual settin
 - **Swag and merch**: Place to put stickers and swag on the check-in desk or on tables around the venue.
 - **Branding**: Featured in the emails to the attendees and shown on the TacoJS site.
 - **Opt-in email list**: We ask all attendees whether they’d like to be contacted by sponsors. We’ll share the contact information of those (and only those) who have opted in.
-<!-- - **Brunch**: Every three months, we invite sponsors, speakers and performers to have brunch together. -->
 
 (Note: during the first few months of TacoJS, we may adjust the sponsorship package to match the needs of running our meetup. We will give you a month's notice before changing anything, and all leftover funds will always go to non-profits. See [https://github.com/TacoJS/tacojs.github.io/issues/5](https://github.com/TacoJS/tacojs.github.io/issues/5) for more info.)
 
@@ -34,11 +34,11 @@ The first session was in July 2016 and it has been held monthly ever since. We u
 
 <!-- Todo automate this -->
 
-|          | Event    | Sponsor 1 | Sponsor 2 | Sponsor 3 | Nonprofit     |
+<!-- |          | Event    | Sponsor 1 | Sponsor 2 | Sponsor 3 | Nonprofit     |
 | --------:|:-------- | --------- | --------- | --------- | ------------- |
 | **2016** | [July](/meetup/2016-july) | [FIS](http://www.fisglobal.com/About-Us/Careers) | [Visit Finland](http://www.visitfinland.com/) | OPEN | [Coded by Kids](http://www.codedbykids.com/) |
 |          | August | OPEN | OPEN | OPEN | TBD |
-|          | November | OPEN | OPEN | OPEN | TBD |
+|          | November | OPEN | OPEN | OPEN | TBD | -->
 
 ## Speakers & Attendees
 Our past speakers have worked as developers at established companies, as well as smaller startups. Here are a few of those companies:
