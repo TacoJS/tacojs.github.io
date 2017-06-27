@@ -96,6 +96,16 @@ header {
   }
 }
 
+// Meetup Select
+form.previous {
+  padding: 0;
+  select {
+    border-bottom-color: $primary;
+    border-radius: 0px;
+    width: 100%;
+  }
+}
+
 // Link bar
 .link-bar {
   a:not(.twitter-button) {

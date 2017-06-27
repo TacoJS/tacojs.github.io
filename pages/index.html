@@ -71,6 +71,13 @@ permalink: /
         <h3>About</h3>
         <p>TacoJS is a meetup about web technology with a side of tacos and live performances. We meet on a Thursday every month.</p>
         <p>All participants are expected to follow <a href="http://jsconf.com/codeofconduct.html" target="_blank">JSConf Code of Conduct</a>.</p>
+        <form class="previous">
+          <!-- https://stackoverflow.com/questions/5150363/onchange-open-url-via-select-jquery -->
+          <select onchange="if (this.value) window.location.href=this.value">
+              <option value="">Browse Previous Meetups...</option>
+              {% for meetup in site.meetups %}<option value="{{ meetup.url }}">{{ meetup.title }}</option>{% endfor %}
+          </select>
+        </form>
         <br>
         <h3>Tacos</h3>
         <p>Every month, we get fresh tacos delivered from a different jawnt across the Philadelphia area. This month's tacos are from <a href="{{ meetup.tacos-url }}" target="_blank">{{ meetup.tacos }}</a>!</p>
