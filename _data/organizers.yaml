@@ -1,20 +1,10 @@
-- # Basic Info
-  name: "Victor Lourng"
-  # Usernames
-  # Links
-- # Basic Info
-  name: "Jenn Voss"
-  # Usernames
-  # Links
-- # Basic Info
-  name: "Amber Wanner"
-  # Usernames
-  # Links
-- # Basic Info
-  name: "Alex Clark"
-  # Usernames
-  # Links
-- # Basic Info
-  name: "Jeff Escalante"
-  # Usernames
-  # Links
+- name: "Victor Lourng"
+  twitter: "pixelyunicorn"
+- name: "Jenn Voss"
+  twitter: "vossjenn"
+- name: "Amber Wanner"
+  twitter: "verypickyeater"
+- name: "Alex Clark"
+  twitter: "realalexclark"
+- name: "Jeff Escalante"
+  twitter: "jescalan"
