@@ -3,7 +3,7 @@ layout: meetup
 id: 1.0
 title: "August 2017"
 subtitle: "A Year of Tacos"
-date: 2017-08 -22 18:00:00
+date: 2017-08-22 18:00:00
 venue: "CandiDate/Industrious Office"
 address: "230 S Broad St, 17th Floor"
 city: "Philadelphia"
