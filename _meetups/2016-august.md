@@ -1,8 +1,7 @@
 ---
 layout: meetup
-id: 0.2
 title: "August 2016"
-subtitle: "v0.2 Karaoke Edition"
+subtitle: "Karaoke Edition"
 date: 2016-08-25 18:00:00
 venue: "CandiDate/Industrious Office"
 address: "230 S Broad St, 17th Floor"

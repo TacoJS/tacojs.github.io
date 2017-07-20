@@ -1,6 +1,5 @@
 ---
 layout: meetup
-id: 1.0
 title: "August 2017"
 subtitle: "A Year of Tacos"
 date: 2017-08-22 18:00:00

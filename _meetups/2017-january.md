@@ -1,8 +1,7 @@
 ---
 layout: meetup
-id: 0.4
 title: "January 2017"
-subtitle: "v0.4 Frosty Delight"
+subtitle: "Frosty Delight"
 date: 2017-01-24 18:00:00
 venue: "CandiDate/Industrious Office"
 address: "230 S Broad St, 17th Floor"
@@ -39,7 +38,7 @@ schedule:
     title: "Yeoman Generators: How Hard It Could Be?"
     author: "Mickael Tardy"
     twitter: "m1ketardy"
-    description: 
+    description:
     emoji: "🎩"
   - time: 19:15:00
     type: talk

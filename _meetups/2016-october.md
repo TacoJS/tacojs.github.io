@@ -1,8 +1,7 @@
 ---
 layout: meetup
-id: 0.3
 title: "October 2016"
-subtitle: “v0.3 Spooktacular Special”
+subtitle: “Spooktacular Special”
 date: 2016-10-27 18:00:00
 venue: "CandiDate/Industrious Office"
 address: "230 S Broad St, 17th Floor"
