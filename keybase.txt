@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/victor
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://tacojs.rocks
+  * I am victor (https://keybase.io/victor) on keybase.
+  * I have a public key with fingerprint 35CB 233C BA71 CA61 84A0  3B86 0066 EF93 5892 3545
+
+To do so, I am signing this object:
+
+{
+    &quot;body&quot;: {
+        &quot;key&quot;: {
+            &quot;eldest_kid&quot;: &quot;01205add8735e97b26c8f1dfa25504c535e84799ff7b007bf30f4fdf238866aa08490a&quot;,
+            &quot;fingerprint&quot;: &quot;35cb233cba71ca6184a03b860066ef9358923545&quot;,
+            &quot;host&quot;: &quot;keybase.io&quot;,
+            &quot;key_id&quot;: &quot;0066ef9358923545&quot;,
+            &quot;kid&quot;: &quot;0101f787748474d45a142a1ca387d2f828fa44b01eb0ca2b8a68d22a2733ab2e81d20a&quot;,
+            &quot;uid&quot;: &quot;9c47e33bcd23d37997c1040ec7c1ba00&quot;,
+            &quot;username&quot;: &quot;victor&quot;
+        },
+        &quot;service&quot;: {
+            &quot;hostname&quot;: &quot;tacojs.rocks&quot;,
+            &quot;protocol&quot;: &quot;http:&quot;
+        },
+        &quot;type&quot;: &quot;web_service_binding&quot;,
+        &quot;version&quot;: 1
+    },
+    &quot;ctime&quot;: 1500592528,
+    &quot;expire_in&quot;: 157680000,
+    &quot;prev&quot;: &quot;f80aa3b1a19c7d5d0844f70418c38c307972f77ce9b6ab33cdebab5d1880b612&quot;,
+    &quot;seqno&quot;: 54,
+    &quot;tag&quot;: &quot;signature&quot;
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.73
+Comment: https://keybase.io/crypto
+
+yMNwAnicZVJ9TJVVGL+AMsESkVgNptA7beTY5byf57wXU+uGg255WXx1E7yd9wuu
+0L147+U7kGIKNptQXFLnliSUDETyA6iLjUsqmjFLCN0ohcXAbDoTx/ID7FzSvzo7
+27PnOb/f7/yec54zzwbpQgM++T3o5kdDQ0zARZ+nSGfZLtZXUJJDKaMMFVS+uhDU
+AkV1ua35NoUyUIBmAI8VBUGWV0UoMYKMNFrRMMPzgJN5UkUcFEVNgxIAUNJYoHGa
+ojEsQoKAMUCcCDAVT2k2e67qLHTa7G4iy/KyxLCsLGFIy1igEYcBKyEBAEFQNZHl
+kciwPMcTYp7D5WcQcxJ2qXqbg9RIYv3P3v/xT30DWoMIQo7Y4xSOxzTHYHIXi6DC
+aIhBGuY4CdCqBGTMSAgLSGEYzECWxRKjIlphFnwXLciJMgdVlpVkhWEVlvQLZRpw
+QJVJlDAAfqBLddrx+ypBF9tkt8NJVcZTpEYS1f+s/j6enLux7Njm0jsdcr6LMAud
+DrdDdhSQkzy3u9DgJ7rLCv3IElWyPtGwSja7Qh6REIpVp8vmsFMGmiBlt80vSvMA
+8CLDMyieUksLbU7VavMjeCggQJb/GrWYSGoIYMxKNKZFGSq8Qn6I0yDgaCSzZAMo
+QkaDUFZFScAS+SNFlbDEKzRCQBJohvJ3td3uoAw8R3ziXKLpsuXasbvIqVKVA77s
+RbqAUF3w4kD/dOlCQ5Y/nblYKWx+Q0Ok93yEMT0xOjvn753RVNeid0LXDMwazl1P
+WK+fy1xd0BKbKFwwXDI3j43dHTTpo+g321Jdpv09A1lbo7xHPc27Cl4SJoWXR+Ar
+fzSVW5WRq+Vtvenzy7oso4Oyt+fdXw90tjQYH7VOHL9Xv9v305L7pvYLyWeqK8f/
+akA9qbe+/ngo5fI3lOvnt5nEFbVlr8U8SFPmttTsmP1qNK3E69x0rXs2Z7p/E1t/
+M+jFyd9izBMTVlOt8YGh05cTaSrfPZK689T0Z02e9hCLtjqDWZqw7nSud2ljZ1JS
+8agxLsks+cr6TvsOFny+LzuA23fLdGhj9XRq97eU3rV2WPbke8+jZ2wdremW/r5j
+wedq9qQ0V2efPPJh+Kr8fkuMYers5ccgMaLCHO0+Wx94ceXtbTEZHBisi03cfDyz
+kVoL4xMO3+OCg1v1ltK4ufRXDwV9n+ELP9W24pfurLS+ZTs2esxrjiWPfHfpxHzd
+/GTo5reUyuGEqGCLFRoPP7/u+hvty81b/wyJrgOxTVO7amZi+C1hVSnNGxJWGpYk
+zt85cvK9khqYHsBf+SL8aveXj6tm6I6HnyZnnXj4Af16TXFp+KrGvIiOrt49VeFj
+P+p6X2A74m4fnKKvHK29Oz3MtcceaBnYlBs4s9/T0nIncvFz/0T33dh7f8Tzw95r
+VeKNcWPYo8zxJuf0+n8BzI+50w==
+=sQGV
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/victor
+
+==================================================================
