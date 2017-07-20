@@ -1,9 +1,9 @@
 ---
 layout: meetup
 id: 1.0
-title: "July 2017"
-subtitle: "v1.0 A Year of Tacos"
-date: 2017-07-25 18:00:00
+title: "August 2017"
+subtitle: "A Year of Tacos"
+date: 2017-08 -22 18:00:00
 venue: "CandiDate/Industrious Office"
 address: "230 S Broad St, 17th Floor"
 city: "Philadelphia"
@@ -16,14 +16,14 @@ tacos: "TBD"
 # rsvp-url: "https://www.meetup.com/Philadelphia-JavaScript-Developers/events/XXX/"
 price: 10
 sponsors:
-# - name: "ABC"
+# - name: "ABC"u
 #   logo-url: "/media/logos/abc.png"
 #   url: "https://abc.xyz/"
 schedule:
-  - time: 17:00:00
+  - time: 17:30:00
     type: event
     title: "Cowork!"
-    description: "Get out of work early? Feel free to swing by for an hour of coworking."
+    description: "Get out of work early? Feel free to swing by for 30 minutes of coworking."
     emoji: "🏡"
   - time: 18:00:00
     type: event
