@@ -55,7 +55,7 @@ We believe this industry can and should be more inclusive. Here are the things w
 
 ### How do I sponsor an event?
 
-If you’re interested in sponsoring TacoJS, please contact Victor at hello (at) victorlourng.com.
+If you’re interested in sponsoring TacoJS, please contact Melody at tacojs (at) melody.cool.
 
 ### Can we have a speaker the same month that we sponsor?
 
