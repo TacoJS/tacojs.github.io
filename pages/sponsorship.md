@@ -17,7 +17,7 @@ Today the meetup is co-organized by {% for organizer in site.data.organizers %}{
 
 ## Sponsorship
 
-### $250/month (Suggested)
+### $300/month or more
 
 During the event, sponsors have a chance to talk to attendees in a casual setting. Here are some other things you get with your sponsorship:
 
@@ -31,14 +31,6 @@ During the event, sponsors have a chance to talk to attendees in a casual settin
 
 ## History
 The first session was in July 2016 and it has been held monthly ever since. We use funds to cover the cost of food, the venue, and equipment. **We donate all unused funds each month to non-profits** such as Coded by Kids, Hopeworks, Code for Philly, StudentRND, and GirlDevelopIt.
-
-<!-- Todo automate this -->
-
-<!-- |          | Event    | Sponsor 1 | Sponsor 2 | Sponsor 3 | Nonprofit     |
-| --------:|:-------- | --------- | --------- | --------- | ------------- |
-| **2016** | [July](/meetup/2016-july) | [FIS](http://www.fisglobal.com/About-Us/Careers) | [Visit Finland](http://www.visitfinland.com/) | OPEN | [Coded by Kids](http://www.codedbykids.com/) |
-|          | August | OPEN | OPEN | OPEN | TBD |
-|          | November | OPEN | OPEN | OPEN | TBD | -->
 
 ## Speakers & Attendees
 Our past speakers have worked as developers at established companies, as well as smaller startups. Here are a few of those companies:
