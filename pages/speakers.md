@@ -10,7 +10,7 @@ TacoJS is a monthly meetup centered around programming, tacos, and live performa
 
 ## How do I submit a talk?
 
-You can either [create a new issue on GitHub](https://github.com/TacoJS/talks/issues) or send us an email in the footer link. Come chat in #tacojs on the [PhillyDev Slack](http://phillydev.org/) if you want immediate feedback.
+You can either [create a new issue on GitHub](https://github.com/TacoJS/talks/issues) or send us an email in the footer link. Come chat in #tacojs on the [PhillyDev Slack](http://phillydev.org/) OR #speaking on the [BoroJS Slack](http://borojs.slack.com/) if you want immediate feedback.
 
 ## When and where will it be?
 
