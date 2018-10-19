@@ -19,20 +19,20 @@ sponsors:
 #    logo-url: "/media/logos/honda.png"
 #    url: "http://www.honda.com/"
 schedule:
-  - time: 17:00:00
+  - time: 2016-10-27 17:00:00
     type: event
     title: "Cowork!"
     description: "Get out of work early? Feel free to swing by for an hour of coworking."
     emoji: "🏡"
-  - time: 18:00:00
+  - time: 2016-10-27 18:00:00
     type: event
     title: "Get some tasty tacos and drinks"
     emoji: "🌮"
-  - time: 18:45:00
+  - time: 2016-10-27 18:45:00
     type: event
     title: "Introductions"
     emoji: "👋"
-  - time: 19:00:00
+  - time: 2016-10-27 19:00:00
     type: talk
     track: passion
     title: "Code Tests as Living Documentation"
@@ -40,7 +40,7 @@ schedule:
     twitter: "logan_crossan"
     description: "A talk on the importance of unit testing."
     emoji: "💯"
-  - time: 19:15:00
+  - time: 2016-10-27 19:15:00
     type: talk
     track: technical
     title: "Talk TBD"
@@ -48,7 +48,7 @@ schedule:
     twitter: "tacojs_phl"
     description: "Come give a talk at TacoJS! See the <a href='http://tacojs.rocks/speak'>‘Speak’</a> page for more details."
     emoji: "😎"
-  - time: 19:30:00
+  - time: 2016-10-27 19:30:00
     type: talk
     track: technical
     title: "Functional Reactive Systems"
@@ -56,7 +56,7 @@ schedule:
     twitter: "nateabele"
     description: "The Holy Grail of single-page applications are 'always-on' interfaces that continuously respond to user interaction and real-time remote data, but managing complex UIs gets messy in a hurry. We'll talk about the principles of functional reactive programming (FRP), and how they can bring reliability and sanity to your architecture & development process."
     emoji: "🔨"
-  - time: 20:00:00
+  - time: 2016-10-27 20:00:00
     type: talk
     track: technical
     title: "Talk TBD"
@@ -64,7 +64,7 @@ schedule:
     twitter: "tacojs_phl"
     description: "Come give a talk at TacoJS! See the <a href='http://tacojs.rocks/speak'>‘Speak’</a> page for more details."
     emoji: "😎"
-  - time: 20:15:00
+  - time: 2016-10-27 20:15:00
     type: talk
     track: technical
     title: "Open Mic or Talk TBD"
@@ -72,7 +72,7 @@ schedule:
     twitter: "tacojs_phl"
     description: "Come give a talk at TacoJS! See the <a href='http://tacojs.rocks/speak'>‘Speak’</a> page for more details."
     emoji: "😎"
-  - time: 20:45:00
+  - time: 2016-10-27 20:45:00
     type: event
     title: "bevera.js"
     description: "Head over to a nearby pub for beverages, there are a couple down the street."

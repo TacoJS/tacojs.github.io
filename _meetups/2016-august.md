@@ -19,20 +19,20 @@ sponsors:
     logo-url: "/media/logos/honda.png"
     url: "http://www.honda.com/"
 schedule:
-  - time: 17:00:00
+  - time: 2016-08-25 17:00:00
     type: event
     title: "Cowork!"
     description: "Get out of work early? Feel free to swing by for an hour of coworking."
     emoji: "🏡"
-  - time: 18:15:00
+  - time: 2016-08-25 18:15:00
     type: event
     title: "Get some tasty tacos and drinks"
     emoji: "🌮"
-  - time: 19:00:00
+  - time: 2016-08-25 19:00:00
     type: event
     title: "Introductions"
     emoji: "👋"
-  - time: 19:15:00
+  - time: 2016-08-25 19:15:00
     type: talk
     track: technical
     title: "Unleashing JavaScript with Node &amp; Electron"
@@ -40,7 +40,7 @@ schedule:
     twitter: "m1ketardy"
     description: "In this talk I'll introduce Electron and how it can be served with NodeJS. I’ll share my own experience with Electron and show some really cool applications."
     emoji: "🎢"
-  - time: 19:30:00
+  - time: 2016-08-25 19:30:00
     type: talk
     track: technical
     title: "What is 'serverless' even?"
@@ -48,11 +48,11 @@ schedule:
     twitter: "pamasaur"
     description: "The 'cloud' is a mere construct in our minds, but those wild kids are taking things further with 'serverless' apps. Now you don't even have an imaginary server – you can run 'serverless'!"
     emoji: "⛅️"
-  - time: 19:45:00
+  - time: 2016-08-25 19:45:00
     type: event
     title: "Intermission & Live Karaoke.js"
     emoji: "🎤"
-  - time: 20:00:00
+  - time: 2016-08-25 20:00:00
     type: talk
     track: technical
     title: "Linting your CSS with StyleLint"
@@ -60,7 +60,7 @@ schedule:
     twitter: "belcherj"
     description: "Why you should lint your CSS and how to set it up."
     emoji: "👾"
-  - time: 20:15:00
+  - time: 2016-08-25 20:15:00
     type: talk
     track: technical
     title: "Pokemon Go API Development"
@@ -68,7 +68,7 @@ schedule:
     twitter: "brentschooley"
     description: ""
     emoji: "🐀"
-  - time: 20:30:00
+  - time: 2016-08-25 20:30:00
     type: talk
     track: creative
     title: "TBD or Open Mic"
@@ -76,7 +76,7 @@ schedule:
     twitter: "tacojs"
     description: "Want to give a talk? Check out the talks page and get in touch with us!"
     emoji: "💓"
-  - time: 20:45:00
+  - time: 2016-08-25 20:45:00
     type: event
     title: "bevera.js"
     description: "Head over to a nearby pub for beverages, there are a couple down the street."
